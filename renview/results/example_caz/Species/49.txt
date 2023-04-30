@@ -11,5 +11,17 @@ ranksep="0.25 equally";
 nodesep="0.25 equally";
 rankdir=LR;
 bgcolor=white;
-"CHOH(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=dodgerblue,URL="49.svg",shape=plaintext];
+"R49"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="49.svg",shape=plaintext];
+"R7"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="7.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   55   50%   2.18e-15 mol/s    1.00E+00"];
+"R7"->"R49"
+"R3"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="3.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   55   50%   2.18e-15 mol/s    1.00E+00"];
+"R3"->"R49"
+"R1"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="1.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   161   50%   2.18e-15 mol/s    1.00E+00"];
+"R1"->"R49"
+"R20"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="20.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   161   50%   2.18e-15 mol/s    1.00E+00"];
+"R20"->"R49"
 }

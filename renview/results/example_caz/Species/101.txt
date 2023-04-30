@@ -1,0 +1,24 @@
+digraph G {
+splines = true;
+graph [bgcolor=lightgray, resolution=64, fontname=Arial, fontcolor=blue, fontsize=36];
+node [fontsize=12];
+edge [fontsize=30];
+label = "Reaction Path Analysis";
+labelloc = "t";
+center=1;
+size="10,10";
+ranksep="0.25 equally";
+nodesep="0.25 equally";
+rankdir=LR;
+bgcolor=white;
+"R101"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="101.svg",shape=plaintext];
+"R0"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="0.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(6)",color=black,weight=2,arrowsize=2,label="   132   100%   2.18e-15 mol/s    1.00E+00"];
+"R0"->"R101"
+"R65"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="65.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(6)",color=black,weight=2,arrowsize=2,label="   132   100%   2.18e-15 mol/s    1.00E+00"];
+"R65"->"R101"
+"R271"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="271.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(6)",color=black,weight=2,arrowsize=2,label="   753   100%   1.11e-24 mol/s    1.90E-02"];
+"R101"->"R271"
+}

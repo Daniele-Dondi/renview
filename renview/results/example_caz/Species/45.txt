@@ -11,5 +11,26 @@ ranksep="0.25 equally";
 nodesep="0.25 equally";
 rankdir=LR;
 bgcolor=white;
-"CHC(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=purple,URL="45.svg",shape=plaintext];
+"R45"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="45.svg",shape=plaintext];
+"R14"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="14.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   50   50%   2.18e-15 mol/s    1.00E+00"];
+"R14"->"R45"
+"R2"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="2.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   50   50%   2.18e-15 mol/s    1.00E+00"];
+"R2"->"R45"
+"R0"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="0.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   117   50%   2.18e-15 mol/s    1.00E+00"];
+"R0"->"R45"
+"R30"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="30.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   117   50%   2.18e-15 mol/s    1.00E+00"];
+"R30"->"R45"
+"R138"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="138.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(2)",color=black,weight=2,arrowsize=1,label="   190   33%   2.18e-15 mol/s    1.00E+00"];
+"R45"->"R138"
+"R197"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="197.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(2)",color=black,weight=2,arrowsize=1,label="   258   33%   2.18e-15 mol/s    1.00E+00"];
+"R45"->"R197"
+"R260"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="260.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(2)",color=black,weight=2,arrowsize=1,label="   352   33%   2.18e-15 mol/s    1.00E+00"];
+"R45"->"R260"
 }

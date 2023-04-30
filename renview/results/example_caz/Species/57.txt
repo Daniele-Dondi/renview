@@ -11,11 +11,20 @@ ranksep="0.25 equally";
 nodesep="0.25 equally";
 rankdir=LR;
 bgcolor=white;
-"CH(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=springgreen,URL="57.svg",shape=plaintext];
-"C(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=dodgerblue,URL="58.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(1)",color=green,weight=2,arrowsize=1,label="   68   0%   2.5e-09 mol/s    4.84E-01"];
-"C(S)"->"CH(S)"
-"CHCO(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=springgreen,URL="34.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(5)",color=black,weight=2,arrowsize=2,label="   105   99%   5.42e-06 mol/s    1.00E+00"];
-"CHCO(S)"->"CH(S)"
+"R57"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="57.svg",shape=plaintext];
+"R14"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="14.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   63   50%   2.18e-15 mol/s    1.00E+00"];
+"R14"->"R57"
+"R3"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="3.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   63   50%   2.18e-15 mol/s    1.00E+00"];
+"R3"->"R57"
+"R1"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="1.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   176   50%   2.18e-15 mol/s    1.00E+00"];
+"R1"->"R57"
+"R30"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="30.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   176   50%   2.18e-15 mol/s    1.00E+00"];
+"R30"->"R57"
+"R148"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="148.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(6)",color=black,weight=2,arrowsize=2,label="   200   100%   2.18e-15 mol/s    1.00E+00"];
+"R57"->"R148"
 }

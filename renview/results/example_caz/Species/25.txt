@@ -11,5 +11,17 @@ ranksep="0.25 equally";
 nodesep="0.25 equally";
 rankdir=LR;
 bgcolor=white;
-"CCOH(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=purple,URL="25.svg",shape=plaintext];
+"R25"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="25.svg",shape=plaintext];
+"R12"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="12.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(6)",color=black,weight=2,arrowsize=2,label="   30   100%   2.18e-15 mol/s    1.00E+00"];
+"R12"->"R25"
+"R1"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="1.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(6)",color=black,weight=2,arrowsize=2,label="   30   100%   2.18e-15 mol/s    1.00E+00"];
+"R1"->"R25"
+"R258"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="258.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   429   0%   2.2e-26 mol/s    1.00E+00"];
+"R25"->"R258"
+"R258"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="258.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(5)",color=black,weight=2,arrowsize=2,label="   734   99%   7.8e-19 mol/s    2.82E-08"];
+"R25"->"R258"
 }

@@ -1,0 +1,36 @@
+digraph G {
+splines = true;
+graph [bgcolor=lightgray, resolution=64, fontname=Arial, fontcolor=blue, fontsize=36];
+node [fontsize=12];
+edge [fontsize=30];
+label = "Reaction Path Analysis";
+labelloc = "t";
+center=1;
+size="10,10";
+ranksep="0.25 equally";
+nodesep="0.25 equally";
+rankdir=LR;
+bgcolor=white;
+"R243"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="243.svg",shape=plaintext];
+"R17"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="17.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(5)",color=black,weight=2,arrowsize=2,label="   327   99%   2.18e-15 mol/s    1.00E+00"];
+"R17"->"R243"
+"R13"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="13.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(5)",color=black,weight=2,arrowsize=2,label="   327   99%   2.18e-15 mol/s    1.00E+00"];
+"R13"->"R243"
+"R278"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="278.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   521   50%   2.18e-15 mol/s    1.00E+00"];
+"R243"->"R278"
+"R279"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="279.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   522   50%   2.18e-15 mol/s    1.00E+00"];
+"R243"->"R279"
+"R338"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="338.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   712   0%   3.17e-20 mol/s    6.95E-07"];
+"R338"->"R243"
+"R282"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="282.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   713   0%   4.75e-23 mol/s    4.63E-04"];
+"R282"->"R243"
+"R282"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="282.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   765   0%   2.2e-26 mol/s    1.00E+00"];
+"R282"->"R243"
+}

@@ -11,5 +11,29 @@ ranksep="0.25 equally";
 nodesep="0.25 equally";
 rankdir=LR;
 bgcolor=white;
-"CHCH(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=dodgerblue,URL="44.svg",shape=plaintext];
+"R44"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="44.svg",shape=plaintext];
+"R2"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="2.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   49   49%   2.18e-15 mol/s    1.00E+00"];
+"R2"->"R44"
+"R14"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="14.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   49   49%   2.18e-15 mol/s    1.00E+00"];
+"R14"->"R44"
+"R0"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="0.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   119   49%   2.18e-15 mol/s    1.00E+00"];
+"R0"->"R44"
+"R41"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="41.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   119   49%   2.18e-15 mol/s    1.00E+00"];
+"R41"->"R44"
+"R137"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="137.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(2)",color=black,weight=2,arrowsize=1,label="   189   33%   2.18e-15 mol/s    1.00E+00"];
+"R44"->"R137"
+"R196"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="196.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(2)",color=black,weight=2,arrowsize=1,label="   257   33%   2.18e-15 mol/s    1.00E+00"];
+"R44"->"R196"
+"R259"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="259.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(2)",color=black,weight=2,arrowsize=1,label="   351   33%   2.18e-15 mol/s    1.00E+00"];
+"R44"->"R259"
+"R119"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="119.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   649   0%   2.2e-26 mol/s    1.00E+00"];
+"R119"->"R44"
 }

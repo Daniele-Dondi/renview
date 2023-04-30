@@ -11,14 +11,56 @@ ranksep="0.25 equally";
 nodesep="0.25 equally";
 rankdir=LR;
 bgcolor=white;
-"OH(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=purple,URL="60.svg",shape=plaintext];
-"CH3COH(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=springgreen,URL="16.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   120   0%   1.82e-08 mol/s    1.00E+00"];
-"CH3COH(S)"->"OH(S)"
-"H2O(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=springgreen,URL="59.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(5)",color=green,weight=2,arrowsize=2,label="   150   99%   3e-06 mol/s    5.02E-01"];
-"H2O(S)"->"OH(S)"
-"COOH(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=dodgerblue,URL="64.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(5)",color=black,weight=2,arrowsize=2,label="   154   99%   2.5e-06 mol/s    7.21E-01"];
-"OH(S)"->"COOH(S)"
+"R60"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="60.svg",shape=plaintext];
+"R4"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="4.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(5)",color=black,weight=2,arrowsize=2,label="   66   99%   2.18e-15 mol/s    1.00E+00"];
+"R4"->"R60"
+"R13"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="13.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(5)",color=black,weight=2,arrowsize=2,label="   66   99%   2.18e-15 mol/s    1.00E+00"];
+"R13"->"R60"
+"R61"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="61.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   126   9%   2.18e-15 mol/s    1.00E+00"];
+"R60"->"R61"
+"R62"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="62.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   127   9%   2.18e-15 mol/s    1.00E+00"];
+"R60"->"R62"
+"R149"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="149.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   201   9%   2.18e-15 mol/s    1.00E+00"];
+"R60"->"R149"
+"R150"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="150.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   202   9%   2.18e-15 mol/s    1.00E+00"];
+"R60"->"R150"
+"R151"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="151.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   203   9%   2.18e-15 mol/s    1.00E+00"];
+"R60"->"R151"
+"R202"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="202.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   263   9%   2.18e-15 mol/s    1.00E+00"];
+"R60"->"R202"
+"R203"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="203.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   264   9%   2.18e-15 mol/s    1.00E+00"];
+"R60"->"R203"
+"R204"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="204.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   265   9%   2.18e-15 mol/s    1.00E+00"];
+"R60"->"R204"
+"R233"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="233.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   357   9%   2.18e-15 mol/s    1.00E+00"];
+"R60"->"R233"
+"R234"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="234.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   358   9%   2.18e-15 mol/s    1.00E+00"];
+"R60"->"R234"
+"R263"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="263.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   359   9%   2.18e-15 mol/s    1.00E+00"];
+"R60"->"R263"
+"R120"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="120.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   444   0%   6.8e-23 mol/s    3.23E-04"];
+"R120"->"R60"
+"R87"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="87.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   445   0%   2.19e-26 mol/s    9.97E-01"];
+"R60"->"R87"
+"R87"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="87.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   474   0%   7.2e-24 mol/s    3.04E-03"];
+"R60"->"R87"
+"R120"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="120.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   650   0%   2.2e-26 mol/s    1.00E+00"];
+"R120"->"R60"
 }

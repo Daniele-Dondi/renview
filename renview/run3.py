@@ -49,8 +49,8 @@ if __name__ == "__main__":
     default_kwargs = {
         'species_file': r'./data/example_caz/species_comp.out',
         'reactions_file': r'./data/example_caz/reaction_rates.txt',
-        'initial_reactant': 'CH4',
-        'reaction_cutoffrate': 1.0E-09,
+        'initial_reactant': 'R1',
+        'reaction_cutoffrate': 1.0E-29,
         'elements_desired': ['C', 'O'],
         'normalization': 2,
         'output_directory': r'./results/example_caz/',
