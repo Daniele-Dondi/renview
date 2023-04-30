@@ -33,7 +33,7 @@
 <title>R269&#45;&gt;R153</title>
 <path fill="none" stroke="black" stroke-width="6" d="M708,-145.43C815.26,-145.43 1082.28,-145.43 1207.37,-145.43"/>
 <polygon fill="black" stroke="black" stroke-width="6" points="1202.3,-155.93 1222.3,-145.43 1202.3,-134.93 1202.3,-155.93"/>
-<text text-anchor="middle" x="968" y="-154.43" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;750 &#160;&#160;100% &#160;&#160;1.34e&#45;26 mol/s &#160;&#160;&#160;7.18E&#45;01</text>
+<text text-anchor="middle" x="968" y="-154.43" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;750 &#160;&#160;100% &#160;&#160;6.14e&#45;12 mol/s &#160;&#160;&#160;7.18E&#45;01</text>
 </g>
 <!-- R87 -->
 <g id="node2" class="node">
@@ -47,9 +47,9 @@
 <!-- R87&#45;&gt;R269 -->
 <g id="edge1" class="edge">
 <title>R87&#45;&gt;R269</title>
-<path fill="none" stroke="black" stroke-width="5" d="M84.84,-245.42C177.02,-261.07 423,-291.4 601,-208.43 612.75,-202.96 623.29,-193.99 632.1,-184.52"/>
-<polygon fill="black" stroke="black" stroke-width="5" points="636.24,-193.62 642.21,-172.62 622.73,-182.49 636.24,-193.62"/>
-<text text-anchor="middle" x="354" y="-272.43" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;365 &#160;&#160;99% &#160;&#160;2.18e&#45;15 mol/s &#160;&#160;&#160;1.00E+00</text>
+<path fill="none" stroke="black" stroke-width="3" d="M84.84,-245.42C177.02,-261.07 423,-291.4 601,-208.43 615.75,-201.55 628.61,-189.17 638.52,-177.19"/>
+<polygon fill="black" stroke="black" stroke-width="3" points="639.82,-181.66 643.21,-171.62 634.3,-177.35 639.82,-181.66"/>
+<text text-anchor="middle" x="354" y="-272.43" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;365 &#160;&#160;47% &#160;&#160;4.67e&#45;08 mol/s &#160;&#160;&#160;1.00E+00</text>
 </g>
 <!-- R13 -->
 <g id="node3" class="node">
@@ -63,9 +63,9 @@
 <!-- R13&#45;&gt;R269 -->
 <g id="edge2" class="edge">
 <title>R13&#45;&gt;R269</title>
-<path fill="none" stroke="black" stroke-width="5" d="M84.93,-172.75C170.91,-170.99 391.6,-165.53 593.55,-151.8"/>
-<polygon fill="black" stroke="black" stroke-width="5" points="588.94,-160.48 608.29,-150.36 587.73,-143.02 588.94,-160.48"/>
-<text text-anchor="middle" x="354" y="-180.43" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;365 &#160;&#160;99% &#160;&#160;2.18e&#45;15 mol/s &#160;&#160;&#160;1.00E+00</text>
+<path fill="none" stroke="black" stroke-width="3" d="M84.93,-172.75C173.86,-170.93 406.92,-165.15 601,-151.43 601.81,-151.37 602.62,-151.31 603.44,-151.25"/>
+<polygon fill="black" stroke="black" stroke-width="3" points="600.61,-154.67 610.29,-150.36 600.03,-147.69 600.61,-154.67"/>
+<text text-anchor="middle" x="354" y="-180.43" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;365 &#160;&#160;47% &#160;&#160;4.67e&#45;08 mol/s &#160;&#160;&#160;1.00E+00</text>
 </g>
 <!-- R139 -->
 <g id="node4" class="node">
@@ -81,14 +81,14 @@
 <title>R139&#45;&gt;R269</title>
 <path fill="none" stroke="black" d="M93.98,-93.82C98.37,-94.44 102.76,-94.99 107,-95.43 216.27,-106.74 494.86,-86.07 601,-114.43 604.41,-115.34 607.84,-116.48 611.25,-117.77"/>
 <polygon fill="black" stroke="black" points="609.75,-121.36 620.32,-122.04 612.49,-114.91 609.75,-121.36"/>
-<text text-anchor="middle" x="354" y="-123.43" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;665 &#160;&#160;0% &#160;&#160;2.2e&#45;26 mol/s &#160;&#160;&#160;1.00E+00</text>
+<text text-anchor="middle" x="354" y="-123.43" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;665 &#160;&#160;0% &#160;&#160;1.01e&#45;11 mol/s &#160;&#160;&#160;1.00E+00</text>
 </g>
 <!-- R139&#45;&gt;R269 -->
 <g id="edge4" class="edge">
 <title>R139&#45;&gt;R269</title>
-<path fill="none" stroke="black" d="M93.73,-62.25C98.13,-60.71 102.6,-59.39 107,-58.43 321.52,-11.68 407.01,44.4 601,-58.43 622.42,-69.79 637.5,-92.78 647.05,-112.28"/>
-<polygon fill="black" stroke="black" points="644.19,-113.45 651.54,-121.08 650.55,-110.53 644.19,-113.45"/>
-<text text-anchor="middle" x="354" y="-67.43" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;749 &#160;&#160;0% &#160;&#160;1.11e&#45;22 mol/s &#160;&#160;&#160;1.98E&#45;04</text>
+<path fill="none" stroke="black" stroke-width="3" d="M93.73,-62.25C98.13,-60.71 102.6,-59.39 107,-58.43 321.52,-11.68 407.01,44.4 601,-58.43 622.42,-69.79 637.5,-92.78 647.05,-112.28"/>
+<polygon fill="black" stroke="black" stroke-width="3" points="643.19,-110.45 650.54,-118.08 649.55,-107.53 643.19,-110.45"/>
+<text text-anchor="middle" x="354" y="-67.43" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;749 &#160;&#160;52% &#160;&#160;5.08e&#45;08 mol/s &#160;&#160;&#160;1.98E&#45;04</text>
 </g>
 </g>
 </svg>

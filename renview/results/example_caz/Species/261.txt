@@ -13,18 +13,18 @@ rankdir=LR;
 bgcolor=white;
 "R261"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="261.svg",shape=plaintext];
 "R53"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="53.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(5)",color=black,weight=2,arrowsize=2,label="   355   99%   2.18e-15 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(4)",color=black,weight=2,arrowsize=2,label="   355   64%   4.67e-08 mol/s    1.00E+00"];
 "R53"->"R261"
 "R13"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="13.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(5)",color=black,weight=2,arrowsize=2,label="   355   99%   2.18e-15 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(4)",color=black,weight=2,arrowsize=2,label="   355   64%   4.67e-08 mol/s    1.00E+00"];
 "R13"->"R261"
 "R129"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="129.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   657   0%   2.2e-26 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   657   0%   1.01e-11 mol/s    1.00E+00"];
 "R129"->"R261"
 "R129"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="129.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   740   0%   5.13e-23 mol/s    4.28E-04"];
+edge[dir="forward",style="setlinewidth(2)",color=black,weight=2,arrowsize=1,label="   740   32%   2.35e-08 mol/s    4.28E-04"];
 "R129"->"R261"
 "R104"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="104.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   741   0%   4.12e-24 mol/s    5.29E-03"];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   741   2%   1.89e-09 mol/s    5.29E-03"];
 "R104"->"R261"
 }

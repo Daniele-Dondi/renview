@@ -1,0 +1,59 @@
+digraph G {
+splines = true;
+graph [bgcolor=lightgray, resolution=64, fontname=Arial, fontcolor=blue, fontsize=36];
+node [fontsize=12];
+edge [fontsize=45];
+label = "Reaction Path Analysis";
+labelloc = "t";
+center=1;
+size="10,10";
+ranksep="6.0 equally";
+nodesep="1.5 equally";
+rankdir=LR;
+bgcolor=white;
+"50"[width=3, height=3, fixedsize=true, imagescale = true, shape=box,image="110010.png", label = "",URL="50.svg"];
+edge[dir="forward",style="solid",penwidth="11",color=black,fontcolor=black,weight=2,label="   0.996"];
+"34" -> "50"
+edge[dir="forward",style="dashed",penwidth="10",color=black,fontcolor=black,weight=2,label="   0.493*"];
+"50" -> "42"
+edge[dir="forward",style="solid",penwidth="11",color=blue,fontcolor=blue,weight=2,label="   0.996"];
+"34" -> "50"
+edge[dir="forward",style="solid",penwidth="6",color=blue,fontcolor=blue,weight=2,label="   0.085"];
+"50" -> "54"
+edge[dir="forward",style="solid",penwidth="11",color=blueviolet,fontcolor=blueviolet,weight=2,label="   0.996"];
+"34" -> "50"
+edge[dir="forward",style="solid",penwidth="6",color=blueviolet,fontcolor=blueviolet,weight=2,label="   0.085"];
+"50" -> "54"
+edge[dir="forward",style="solid",penwidth="11",color=cadetblue,fontcolor=cadetblue,weight=2,label="   0.996"];
+"34" -> "50"
+edge[dir="forward",style="solid",penwidth="6",color=cadetblue,fontcolor=cadetblue,weight=2,label="   0.085"];
+"50" -> "54"
+edge[dir="forward",style="solid",penwidth="14",color=chocolate,fontcolor=chocolate,weight=2,label="   23.108"];
+"58" -> "50"
+edge[dir="forward",style="dashed",penwidth="12",color=chocolate,fontcolor=chocolate,weight=2,label="   1.084*"];
+"50" -> "20"
+edge[dir="forward",style="solid",penwidth="11",color=darkgoldenrod,fontcolor=darkgoldenrod,weight=2,label="   0.996"];
+"34" -> "50"
+edge[dir="forward",style="solid",penwidth="12",color=darkgoldenrod,fontcolor=darkgoldenrod,weight=2,label="   1.084"];
+"50" -> "20"
+edge[dir="forward",style="solid",penwidth="11",color=darkgreen,fontcolor=darkgreen,weight=2,label="   0.996"];
+"34" -> "50"
+edge[dir="forward",style="solid",penwidth="12",color=darkgreen,fontcolor=darkgreen,weight=2,label="   1.084"];
+"50" -> "20"
+edge[dir="forward",style="solid",penwidth="11",color=darkmagenta,fontcolor=darkmagenta,weight=2,label="   0.996"];
+"34" -> "50"
+edge[dir="forward",style="solid",penwidth="10",color=darkmagenta,fontcolor=darkmagenta,weight=2,label="   0.493"];
+"50" -> "42"
+edge[dir="forward",style="solid",penwidth="11",color=darkred,fontcolor=darkred,weight=2,label="   0.996"];
+"34" -> "50"
+edge[dir="forward",style="solid",penwidth="10",color=darkred,fontcolor=darkred,weight=2,label="   0.493"];
+"50" -> "42"
+"34"[width=3, height=3, fixedsize=true, imagescale = true, shape=box,image="100010.png", label = "",URL="34.svg"];
+"42"[width=3, height=3, fixedsize=true, imagescale = true, shape=box,image="101010.png", label = "",URL="42.svg"];
+"54"[width=3, height=3, fixedsize=true, imagescale = true, shape=box,image="110110.png", label = "",URL="54.svg"];
+"58"[width=3, height=3, fixedsize=true, imagescale = true, shape=box,image="111010.png", label = "",URL="58.svg"];
+"20"[width=3, height=3, fixedsize=true, imagescale = true, shape=box,image="010100.png", label = "",URL="20.svg"];
+"Original"[shape=rectangle,width=4,height=1,style="filled",fillcolor=grey,fontsize=45,fontcolor=white,label = "All Pathways",URL="..\pathway_visualization.svg"];
+edge[dir="forward",arrowhead=none,style="invisible",label=""];
+"Original" -> "50"[constraint=false];
+}

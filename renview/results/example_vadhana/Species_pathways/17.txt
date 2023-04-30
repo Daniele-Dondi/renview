@@ -1,0 +1,29 @@
+digraph G {
+splines = true;
+graph [bgcolor=lightgray, resolution=64, fontname=Arial, fontcolor=blue, fontsize=36];
+node [fontsize=12];
+edge [fontsize=45];
+label = "Reaction Path Analysis";
+labelloc = "t";
+center=1;
+size="10,10";
+ranksep="6.0 equally";
+nodesep="1.5 equally";
+rankdir=LR;
+bgcolor=white;
+"17"[width=3, height=3, fixedsize=true, imagescale = true, shape=box,image="010001.png", label = "",URL="17.svg"];
+edge[dir="forward",style="solid",penwidth="4",color=darkblue,fontcolor=darkblue,weight=2,label="   0.033"];
+"21" -> "17"
+edge[dir="forward",style="solid",penwidth="6",color=darkblue,fontcolor=darkblue,weight=2,label="   0.096"];
+"17" -> "25"
+edge[dir="forward",style="solid",penwidth="4",color=darkmagenta,fontcolor=darkmagenta,weight=2,label="   0.033"];
+"21" -> "17"
+edge[dir="forward",style="solid",penwidth="14",color=darkmagenta,fontcolor=darkmagenta,weight=2,label="   22.581"];
+"17" -> "16"
+"21"[width=3, height=3, fixedsize=true, imagescale = true, shape=box,image="010101.png", label = "",URL="21.svg"];
+"25"[width=3, height=3, fixedsize=true, imagescale = true, shape=box,image="011001.png", label = "",URL="25.svg"];
+"16"[width=3, height=3, fixedsize=true, imagescale = true, shape=box,image="010000.png", label = "",URL="16.svg"];
+"Original"[shape=rectangle,width=4,height=1,style="filled",fillcolor=grey,fontsize=45,fontcolor=white,label = "All Pathways",URL="..\pathway_visualization.svg"];
+edge[dir="forward",arrowhead=none,style="invisible",label=""];
+"Original" -> "17"[constraint=false];
+}

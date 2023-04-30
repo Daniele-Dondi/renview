@@ -33,7 +33,7 @@
 <title>R62&#45;&gt;R155</title>
 <path fill="none" stroke="black" stroke-width="6" d="M705.87,-177.77C807.24,-177.77 1091.23,-177.77 1221.35,-177.77"/>
 <polygon fill="black" stroke="black" stroke-width="6" points="1216.33,-188.27 1236.33,-177.77 1216.33,-167.27 1216.33,-188.27"/>
-<text text-anchor="middle" x="978.5" y="-186.77" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;207 &#160;&#160;100% &#160;&#160;2.18e&#45;15 mol/s &#160;&#160;&#160;1.00E+00</text>
+<text text-anchor="middle" x="978.5" y="-186.77" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;207 &#160;&#160;100% &#160;&#160;4.67e&#45;08 mol/s &#160;&#160;&#160;1.00E+00</text>
 </g>
 <!-- R4 -->
 <g id="node2" class="node">
@@ -49,7 +49,7 @@
 <title>R4&#45;&gt;R62</title>
 <path fill="none" stroke="black" stroke-width="3" d="M75.73,-314.77C161.61,-334.83 427.94,-384.57 604.5,-279.77 630.01,-264.62 646.52,-234.62 656.12,-211.05"/>
 <polygon fill="black" stroke="black" stroke-width="3" points="658.63,-215.67 658.93,-205.08 652.09,-213.17 658.63,-215.67"/>
-<text text-anchor="middle" x="357.5" y="-352.77" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;68 &#160;&#160;49% &#160;&#160;2.18e&#45;15 mol/s &#160;&#160;&#160;1.00E+00</text>
+<text text-anchor="middle" x="357.5" y="-352.77" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;68 &#160;&#160;49% &#160;&#160;4.67e&#45;08 mol/s &#160;&#160;&#160;1.00E+00</text>
 </g>
 <!-- R14 -->
 <g id="node3" class="node">
@@ -65,7 +65,7 @@
 <title>R14&#45;&gt;R62</title>
 <path fill="none" stroke="black" stroke-width="3" d="M84.87,-243.2C192.84,-244.13 506.89,-244.15 604.5,-214.77 611.4,-212.69 618.32,-209.7 624.93,-206.3"/>
 <polygon fill="black" stroke="black" stroke-width="3" points="624.28,-211.01 631.33,-203.1 620.89,-204.88 624.28,-211.01"/>
-<text text-anchor="middle" x="357.5" y="-251.77" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;68 &#160;&#160;49% &#160;&#160;2.18e&#45;15 mol/s &#160;&#160;&#160;1.00E+00</text>
+<text text-anchor="middle" x="357.5" y="-251.77" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;68 &#160;&#160;49% &#160;&#160;4.67e&#45;08 mol/s &#160;&#160;&#160;1.00E+00</text>
 </g>
 <!-- R0 -->
 <g id="node4" class="node">
@@ -81,7 +81,7 @@
 <title>R0&#45;&gt;R62</title>
 <path fill="none" stroke="black" stroke-width="3" d="M75.8,-177.77C172.75,-177.77 496.69,-177.77 619.36,-177.77"/>
 <polygon fill="black" stroke="black" stroke-width="3" points="616.25,-181.27 626.25,-177.77 616.25,-174.27 616.25,-181.27"/>
-<text text-anchor="middle" x="357.5" y="-186.77" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;127 &#160;&#160;49% &#160;&#160;2.18e&#45;15 mol/s &#160;&#160;&#160;1.00E+00</text>
+<text text-anchor="middle" x="357.5" y="-186.77" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;127 &#160;&#160;49% &#160;&#160;4.67e&#45;08 mol/s &#160;&#160;&#160;1.00E+00</text>
 </g>
 <!-- R60 -->
 <g id="node5" class="node">
@@ -97,7 +97,7 @@
 <title>R60&#45;&gt;R62</title>
 <path fill="none" stroke="black" stroke-width="3" d="M84.83,-108.66C175.53,-99.8 416,-84.02 604.5,-140.77 611.4,-142.84 618.32,-145.83 624.93,-149.23"/>
 <polygon fill="black" stroke="black" stroke-width="3" points="620.89,-150.65 631.33,-152.43 624.28,-144.53 620.89,-150.65"/>
-<text text-anchor="middle" x="357.5" y="-149.77" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;127 &#160;&#160;49% &#160;&#160;2.18e&#45;15 mol/s &#160;&#160;&#160;1.00E+00</text>
+<text text-anchor="middle" x="357.5" y="-149.77" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;127 &#160;&#160;49% &#160;&#160;4.67e&#45;08 mol/s &#160;&#160;&#160;1.00E+00</text>
 </g>
 <!-- R165 -->
 <g id="node7" class="node">
@@ -113,7 +113,7 @@
 <title>R165&#45;&gt;R62</title>
 <path fill="none" stroke="black" d="M93.73,-34.66C194.64,-8.6 440.42,39.03 604.5,-61.77 633.93,-79.84 650.38,-116.94 658.93,-144.33"/>
 <polygon fill="black" stroke="black" points="655.78,-145.04 661.93,-153.66 662.5,-143.09 655.78,-145.04"/>
-<text text-anchor="middle" x="357.5" y="-70.77" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;687 &#160;&#160;0% &#160;&#160;2.2e&#45;26 mol/s &#160;&#160;&#160;1.00E+00</text>
+<text text-anchor="middle" x="357.5" y="-70.77" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;687 &#160;&#160;0% &#160;&#160;1.01e&#45;11 mol/s &#160;&#160;&#160;1.00E+00</text>
 </g>
 </g>
 </svg>

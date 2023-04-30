@@ -1,0 +1,42 @@
+digraph G {
+splines = true;
+graph [bgcolor=lightgray, resolution=64, fontname=Arial, fontcolor=blue, fontsize=36];
+node [fontsize=12];
+edge [fontsize=45];
+label = "Reaction Path Analysis";
+labelloc = "t";
+center=1;
+size="10,10";
+ranksep="6.0 equally";
+nodesep="1.5 equally";
+rankdir=LR;
+bgcolor=white;
+"35"[width=3, height=3, fixedsize=true, imagescale = true, shape=box,image="100011.png", label = "",URL="35.svg"];
+edge[dir="forward",style="solid",penwidth="3",color=blueviolet,fontcolor=blueviolet,weight=2,label="   0.021"];
+"43" -> "35"
+edge[dir="forward",style="dashed",penwidth="3",color=blueviolet,fontcolor=blueviolet,weight=2,label="   0.016*"];
+"35" -> "34"
+edge[dir="forward",style="dashed",penwidth="1",color=brown,fontcolor=brown,weight=2,label="   0.003*"];
+"35" -> "51"
+edge[dir="forward",style="solid",penwidth="3",color=brown,fontcolor=brown,weight=2,label="   0.021"];
+"43" -> "35"
+edge[dir="forward",style="solid",penwidth="3",color=cadetblue,fontcolor=cadetblue,weight=2,label="   0.021"];
+"43" -> "35"
+edge[dir="forward",style="solid",penwidth="1",color=cadetblue,fontcolor=cadetblue,weight=2,label="   0.002"];
+"35" -> "39"
+edge[dir="forward",style="solid",penwidth="3",color=darkgreen,fontcolor=darkgreen,weight=2,label="   0.021"];
+"43" -> "35"
+edge[dir="forward",style="dashed",penwidth="3",color=darkgreen,fontcolor=darkgreen,weight=2,label="   0.016*"];
+"35" -> "34"
+edge[dir="forward",style="solid",penwidth="3",color=darkred,fontcolor=darkred,weight=2,label="   0.021"];
+"43" -> "35"
+edge[dir="forward",style="solid",penwidth="3",color=darkred,fontcolor=darkred,weight=2,label="   0.016"];
+"35" -> "34"
+"43"[width=3, height=3, fixedsize=true, imagescale = true, shape=box,image="101011.png", label = "",URL="43.svg"];
+"34"[width=3, height=3, fixedsize=true, imagescale = true, shape=box,image="100010.png", label = "",URL="34.svg"];
+"51"[width=3, height=3, fixedsize=true, imagescale = true, shape=box,image="110011.png", label = "",URL="51.svg"];
+"39"[width=3, height=3, fixedsize=true, imagescale = true, shape=box,image="100111.png", label = "",URL="39.svg"];
+"Original"[shape=rectangle,width=4,height=1,style="filled",fillcolor=grey,fontsize=45,fontcolor=white,label = "All Pathways",URL="..\pathway_visualization.svg"];
+edge[dir="forward",arrowhead=none,style="invisible",label=""];
+"Original" -> "35"[constraint=false];
+}

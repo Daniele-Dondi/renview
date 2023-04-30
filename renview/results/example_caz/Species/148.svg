@@ -33,7 +33,7 @@
 <title>R57&#45;&gt;R148</title>
 <path fill="none" stroke="black" stroke-width="5" d="M84.88,-158.23C175.1,-168.42 412.97,-186.81 597,-125.5 599.9,-124.53 602.79,-123.37 605.64,-122.06"/>
 <polygon fill="black" stroke="black" stroke-width="5" points="605.54,-132.34 618.59,-114.83 596.88,-117.13 605.54,-132.34"/>
-<text text-anchor="middle" x="350" y="-177.5" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;200 &#160;&#160;99% &#160;&#160;2.18e&#45;15 mol/s &#160;&#160;&#160;1.00E+00</text>
+<text text-anchor="middle" x="350" y="-177.5" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;200 &#160;&#160;87% &#160;&#160;4.67e&#45;08 mol/s &#160;&#160;&#160;1.00E+00</text>
 </g>
 <!-- R1 -->
 <g id="node3" class="node">
@@ -49,7 +49,7 @@
 <title>R1&#45;&gt;R148</title>
 <path fill="none" stroke="black" stroke-width="5" d="M75.92,-88.5C166.48,-88.5 453.8,-88.5 585.22,-88.5"/>
 <polygon fill="black" stroke="black" stroke-width="5" points="580.03,-97.25 600.03,-88.5 580.03,-79.75 580.03,-97.25"/>
-<text text-anchor="middle" x="350" y="-97.5" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;200 &#160;&#160;99% &#160;&#160;2.18e&#45;15 mol/s &#160;&#160;&#160;1.00E+00</text>
+<text text-anchor="middle" x="350" y="-97.5" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;200 &#160;&#160;87% &#160;&#160;4.67e&#45;08 mol/s &#160;&#160;&#160;1.00E+00</text>
 </g>
 <!-- R372 -->
 <g id="node4" class="node">
@@ -65,7 +65,7 @@
 <title>R372&#45;&gt;R148</title>
 <path fill="none" stroke="black" d="M93.98,-17.77C190.26,-7.49 418.85,7.85 597,-51.5 602.95,-53.48 608.85,-56.29 614.46,-59.49"/>
 <polygon fill="black" stroke="black" points="612.25,-62.86 622.59,-65.17 615.94,-56.91 612.25,-62.86"/>
-<text text-anchor="middle" x="350" y="-60.5" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;672 &#160;&#160;0% &#160;&#160;1.49e&#45;23 mol/s &#160;&#160;&#160;1.47E&#45;03</text>
+<text text-anchor="middle" x="350" y="-60.5" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;672 &#160;&#160;12% &#160;&#160;6.84e&#45;09 mol/s &#160;&#160;&#160;1.47E&#45;03</text>
 </g>
 </g>
 </svg>

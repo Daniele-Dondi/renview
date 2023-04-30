@@ -33,7 +33,7 @@
 <title>R372&#45;&gt;R148</title>
 <path fill="none" stroke="black" stroke-width="6" d="M705.77,-55.5C813.93,-55.5 1085.71,-55.5 1212.25,-55.5"/>
 <polygon fill="black" stroke="black" stroke-width="6" points="1207.05,-66 1227.05,-55.5 1207.05,-45 1207.05,-66"/>
-<text text-anchor="middle" x="969.5" y="-64.5" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;672 &#160;&#160;100% &#160;&#160;1.49e&#45;23 mol/s &#160;&#160;&#160;1.47E&#45;03</text>
+<text text-anchor="middle" x="969.5" y="-64.5" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;672 &#160;&#160;100% &#160;&#160;6.84e&#45;09 mol/s &#160;&#160;&#160;1.47E&#45;03</text>
 </g>
 <!-- R94 -->
 <g id="node2" class="node">
@@ -49,7 +49,7 @@
 <title>R94&#45;&gt;R372</title>
 <path fill="none" stroke="black" stroke-width="6" d="M75.78,-89.07C162.98,-90.01 389.5,-89.99 591.46,-67.62"/>
 <polygon fill="black" stroke="black" stroke-width="6" points="587.5,-77.95 606.17,-65.23 585.1,-57.09 587.5,-77.95"/>
-<text text-anchor="middle" x="348.5" y="-97.5" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;626 &#160;&#160;100% &#160;&#160;2.18e&#45;15 mol/s &#160;&#160;&#160;1.00E+00</text>
+<text text-anchor="middle" x="348.5" y="-97.5" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;626 &#160;&#160;100% &#160;&#160;4.67e&#45;08 mol/s &#160;&#160;&#160;1.00E+00</text>
 </g>
 <!-- R13 -->
 <g id="node3" class="node">
@@ -65,7 +65,7 @@
 <title>R13&#45;&gt;R372</title>
 <path fill="none" stroke="black" stroke-width="6" d="M75.78,-19.62C163.47,-11.3 391.8,4.81 591.67,-31.8"/>
 <polygon fill="black" stroke="black" stroke-width="6" points="584.53,-41.28 606.16,-34.76 588.52,-20.66 584.53,-41.28"/>
-<text text-anchor="middle" x="348.5" y="-42.5" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;626 &#160;&#160;100% &#160;&#160;2.18e&#45;15 mol/s &#160;&#160;&#160;1.00E+00</text>
+<text text-anchor="middle" x="348.5" y="-42.5" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;626 &#160;&#160;100% &#160;&#160;4.67e&#45;08 mol/s &#160;&#160;&#160;1.00E+00</text>
 </g>
 </g>
 </svg>

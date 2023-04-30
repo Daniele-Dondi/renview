@@ -33,7 +33,7 @@
 <title>R130&#45;&gt;R345</title>
 <path fill="none" stroke="black" stroke-width="6" d="M93.68,-89.13C185.74,-89.88 400.58,-89.03 593.48,-67.62"/>
 <polygon fill="black" stroke="black" stroke-width="6" points="589.51,-77.95 608.17,-65.23 587.1,-57.09 589.51,-77.95"/>
-<text text-anchor="middle" x="354" y="-97.5" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;580 &#160;&#160;100% &#160;&#160;1.64e&#45;15 mol/s &#160;&#160;&#160;8.02E&#45;01</text>
+<text text-anchor="middle" x="354" y="-97.5" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;580 &#160;&#160;100% &#160;&#160;3.52e&#45;08 mol/s &#160;&#160;&#160;8.02E&#45;01</text>
 </g>
 <!-- R1 -->
 <g id="node3" class="node">
@@ -49,7 +49,7 @@
 <title>R1&#45;&gt;R345</title>
 <path fill="none" stroke="black" stroke-width="6" d="M75.91,-20.49C155.36,-12.64 389.65,5.51 593.58,-31.79"/>
 <polygon fill="black" stroke="black" stroke-width="6" points="586.53,-41.28 608.16,-34.76 590.52,-20.66 586.53,-41.28"/>
-<text text-anchor="middle" x="354" y="-42.5" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;580 &#160;&#160;100% &#160;&#160;1.64e&#45;15 mol/s &#160;&#160;&#160;8.02E&#45;01</text>
+<text text-anchor="middle" x="354" y="-42.5" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;580 &#160;&#160;100% &#160;&#160;3.52e&#45;08 mol/s &#160;&#160;&#160;8.02E&#45;01</text>
 </g>
 </g>
 </svg>

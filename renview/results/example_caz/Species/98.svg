@@ -33,7 +33,7 @@
 <title>R98&#45;&gt;R255</title>
 <path fill="none" stroke="black" stroke-width="6" d="M689.91,-138.54C790.31,-138.54 1069.49,-138.54 1198.31,-138.54"/>
 <polygon fill="black" stroke="black" stroke-width="6" points="1193.09,-149.04 1213.09,-138.54 1193.09,-128.04 1193.09,-149.04"/>
-<text text-anchor="middle" x="959" y="-147.54" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;731 &#160;&#160;100% &#160;&#160;2.32e&#45;26 mol/s &#160;&#160;&#160;3.28E&#45;01</text>
+<text text-anchor="middle" x="959" y="-147.54" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;731 &#160;&#160;100% &#160;&#160;1.06e&#45;11 mol/s &#160;&#160;&#160;3.28E&#45;01</text>
 </g>
 <!-- R0 -->
 <g id="node2" class="node">
@@ -49,7 +49,7 @@
 <title>R0&#45;&gt;R98</title>
 <path fill="none" stroke="black" stroke-width="3" d="M66.81,-242.49C151.22,-259.07 409.87,-298.9 592,-208.54 608.58,-200.31 622.29,-185.08 632.31,-170.92"/>
 <polygon fill="black" stroke="black" stroke-width="3" points="633.72,-175.12 636.35,-164.85 627.89,-171.23 633.72,-175.12"/>
-<text text-anchor="middle" x="345" y="-274.54" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;125 &#160;&#160;50% &#160;&#160;2.18e&#45;15 mol/s &#160;&#160;&#160;1.00E+00</text>
+<text text-anchor="middle" x="345" y="-274.54" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;125 &#160;&#160;50% &#160;&#160;4.67e&#45;08 mol/s &#160;&#160;&#160;1.00E+00</text>
 </g>
 <!-- R55 -->
 <g id="node3" class="node">
@@ -65,7 +65,7 @@
 <title>R55&#45;&gt;R98</title>
 <path fill="none" stroke="black" stroke-width="3" d="M75.7,-171.91C164.59,-172.4 398.41,-171.32 592,-149.54 595.74,-149.12 599.59,-148.6 603.46,-148.02"/>
 <polygon fill="black" stroke="black" stroke-width="3" points="601,-151.31 610.3,-146.23 599.86,-144.4 601,-151.31"/>
-<text text-anchor="middle" x="345" y="-180.54" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;125 &#160;&#160;50% &#160;&#160;2.18e&#45;15 mol/s &#160;&#160;&#160;1.00E+00</text>
+<text text-anchor="middle" x="345" y="-180.54" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;125 &#160;&#160;50% &#160;&#160;4.67e&#45;08 mol/s &#160;&#160;&#160;1.00E+00</text>
 </g>
 <!-- R3 -->
 <g id="node4" class="node">
@@ -81,7 +81,7 @@
 <title>R3&#45;&gt;R98</title>
 <path fill="none" stroke="black" stroke-width="3" d="M66.96,-103.75C148.68,-96.3 393.89,-78.95 592,-116.54 595.88,-117.28 599.84,-118.24 603.78,-119.36"/>
 <polygon fill="black" stroke="black" stroke-width="3" points="599.5,-121.94 610.09,-121.61 601.61,-115.27 599.5,-121.94"/>
-<text text-anchor="middle" x="345" y="-125.54" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;276 &#160;&#160;50% &#160;&#160;2.18e&#45;15 mol/s &#160;&#160;&#160;1.00E+00</text>
+<text text-anchor="middle" x="345" y="-125.54" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;276 &#160;&#160;50% &#160;&#160;4.67e&#45;08 mol/s &#160;&#160;&#160;1.00E+00</text>
 </g>
 <!-- R15 -->
 <g id="node5" class="node">
@@ -97,7 +97,7 @@
 <title>R15&#45;&gt;R98</title>
 <path fill="none" stroke="black" stroke-width="3" d="M75.74,-31.89C168.75,-9.6 418.41,36.84 592,-55.54 612.15,-66.26 626.98,-87.28 636.73,-105.48"/>
 <polygon fill="black" stroke="black" stroke-width="3" points="632.01,-103.85 639.63,-111.22 638.26,-100.71 632.01,-103.85"/>
-<text text-anchor="middle" x="345" y="-64.54" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;276 &#160;&#160;50% &#160;&#160;2.18e&#45;15 mol/s &#160;&#160;&#160;1.00E+00</text>
+<text text-anchor="middle" x="345" y="-64.54" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;276 &#160;&#160;50% &#160;&#160;4.67e&#45;08 mol/s &#160;&#160;&#160;1.00E+00</text>
 </g>
 </g>
 </svg>

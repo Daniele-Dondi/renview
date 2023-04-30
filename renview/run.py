@@ -54,7 +54,7 @@ if __name__ == "__main__":
         'elements_desired': ['N', 'H'],
         'normalization': 2,
         'output_directory': r'./results/example_ammonia/',
-        'generate_pathways': False,
+        'generate_pathways': True,
         'pathway_file': r'./data/example_ammonia/pathways_ammonia.txt',
         'image_directory': r'./data/example_ammonia/Images/',
         }

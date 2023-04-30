@@ -49,13 +49,13 @@ if __name__ == "__main__":
     default_kwargs = {
         'species_file': r'./data/example_caz/species_comp.out',
         'reactions_file': r'./data/example_caz/reaction_rates.txt',
-        'initial_reactant': 'R1',
-        'reaction_cutoffrate': 1.0E-29,
+        'initial_reactant': 'R0',
+        'reaction_cutoffrate': 1.0E-30,
         'elements_desired': ['C', 'O'],
-        'normalization': 2,
+        'normalization': 3,
         'output_directory': r'./results/example_caz/',
-        'generate_pathways': False,
-        'pathway_file': r'./data/example_caz/pathways_caz.txt',
+        'generate_pathways': True,
+        'pathway_file': r'./data/example_caz/pathways_ammonia.txt',
         'image_directory': r'./data/example_caz/Images/',
         }
     run(**default_kwargs)

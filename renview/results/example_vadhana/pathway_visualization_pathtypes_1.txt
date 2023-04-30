@@ -1,0 +1,89 @@
+digraph G {
+splines = true;
+graph [bgcolor=lightgray, resolution=64, fontname=Arial, fontcolor=blue, fontsize=36];
+node [fontsize=12];
+edge [fontsize=45];
+label = "Cl: 0 H: 1";
+labelloc = "t";
+fontsize = 100;
+center=1;
+size="10,10";
+ranksep="0.75 equally";
+nodesep="0.75 equally";
+rankdir=LR;
+bgcolor=white;
+edge[dir="forward",style="solid",penwidth="11",color=black,fontcolor=black,weight=2,label="   0.996"];
+"34" -> "50"
+edge[dir="forward",style="dashed",penwidth="10",color=black,fontcolor=black,weight=2,label="   0.493*"];
+"50" -> "42"
+edge[dir="forward",style="solid",penwidth="11",color=black,fontcolor=black,weight=2,label="   0.946"];
+"42" -> "34"
+edge[dir="forward",style="solid",penwidth="11",color=blue,fontcolor=blue,weight=2,label="   0.996"];
+"34" -> "50"
+edge[dir="forward",style="solid",penwidth="6",color=blue,fontcolor=blue,weight=2,label="   0.085"];
+"50" -> "54"
+edge[dir="forward",style="solid",penwidth="6",color=blue,fontcolor=blue,weight=2,label="   0.079"];
+"54" -> "55"
+edge[dir="forward",style="solid",penwidth="6",color=blue,fontcolor=blue,weight=2,label="   0.079"];
+"55" -> "51"
+edge[dir="forward",style="solid",penwidth="4",color=blue,fontcolor=blue,weight=2,label="   0.037"];
+"51" -> "43"
+edge[dir="forward",style="dashed",penwidth="3",color=blue,fontcolor=blue,weight=2,label="   0.016*"];
+"43" -> "42"
+edge[dir="forward",style="solid",penwidth="11",color=blue,fontcolor=blue,weight=2,label="   0.946"];
+"42" -> "34"
+edge[dir="forward",style="solid",penwidth="11",color=blueviolet,fontcolor=blueviolet,weight=2,label="   0.996"];
+"34" -> "50"
+edge[dir="forward",style="solid",penwidth="6",color=blueviolet,fontcolor=blueviolet,weight=2,label="   0.085"];
+"50" -> "54"
+edge[dir="forward",style="solid",penwidth="6",color=blueviolet,fontcolor=blueviolet,weight=2,label="   0.079"];
+"54" -> "55"
+edge[dir="forward",style="solid",penwidth="6",color=blueviolet,fontcolor=blueviolet,weight=2,label="   0.079"];
+"55" -> "51"
+edge[dir="forward",style="solid",penwidth="4",color=blueviolet,fontcolor=blueviolet,weight=2,label="   0.037"];
+"51" -> "43"
+edge[dir="forward",style="solid",penwidth="3",color=blueviolet,fontcolor=blueviolet,weight=2,label="   0.021"];
+"43" -> "35"
+edge[dir="forward",style="dashed",penwidth="3",color=blueviolet,fontcolor=blueviolet,weight=2,label="   0.016*"];
+"35" -> "34"
+edge[dir="forward",style="dashed",penwidth="1",color=brown,fontcolor=brown,weight=2,label="   0.003*"];
+"35" -> "51"
+edge[dir="forward",style="solid",penwidth="4",color=brown,fontcolor=brown,weight=2,label="   0.037"];
+"51" -> "43"
+edge[dir="forward",style="solid",penwidth="3",color=brown,fontcolor=brown,weight=2,label="   0.021"];
+"43" -> "35"
+edge[dir="forward",style="solid",penwidth="11",color=cadetblue,fontcolor=cadetblue,weight=2,label="   0.996"];
+"34" -> "50"
+edge[dir="forward",style="solid",penwidth="6",color=cadetblue,fontcolor=cadetblue,weight=2,label="   0.085"];
+"50" -> "54"
+edge[dir="forward",style="solid",penwidth="6",color=cadetblue,fontcolor=cadetblue,weight=2,label="   0.079"];
+"54" -> "55"
+edge[dir="forward",style="solid",penwidth="6",color=cadetblue,fontcolor=cadetblue,weight=2,label="   0.079"];
+"55" -> "51"
+edge[dir="forward",style="solid",penwidth="4",color=cadetblue,fontcolor=cadetblue,weight=2,label="   0.037"];
+"51" -> "43"
+edge[dir="forward",style="solid",penwidth="3",color=cadetblue,fontcolor=cadetblue,weight=2,label="   0.021"];
+"43" -> "35"
+edge[dir="forward",style="solid",penwidth="1",color=cadetblue,fontcolor=cadetblue,weight=2,label="   0.002"];
+"35" -> "39"
+edge[dir="forward",style="dashed",penwidth="1",color=cadetblue,fontcolor=cadetblue,weight=2,label="   0.002*"];
+"39" -> "38"
+edge[dir="forward",style="solid",penwidth="8",color=cadetblue,fontcolor=cadetblue,weight=2,label="   0.245"];
+"38" -> "5"
+edge[dir="forward",style="solid",penwidth="5",color=cadetblue,fontcolor=cadetblue,weight=2,label="   0.043"];
+"5" -> "1"
+edge[dir="forward",style="solid",penwidth="9",color=cadetblue,fontcolor=cadetblue,weight=2,label="   0.278"];
+"1" -> "34"
+"34"[width=5, height=5, fixedsize=true, imagescale = true, shape=box,image="100010.png", label = "",URL="Species_pathways\34.svg"];
+"50"[width=5, height=5, fixedsize=true, imagescale = true, shape=box,image="110010.png", label = "",URL="Species_pathways\50.svg"];
+"42"[width=5, height=5, fixedsize=true, imagescale = true, shape=box,image="101010.png", label = "",URL="Species_pathways\42.svg"];
+"54"[width=5, height=5, fixedsize=true, imagescale = true, shape=box,image="110110.png", label = "",URL="Species_pathways\54.svg"];
+"55"[width=5, height=5, fixedsize=true, imagescale = true, shape=box,image="110111.png", label = "",URL="Species_pathways\55.svg"];
+"51"[width=5, height=5, fixedsize=true, imagescale = true, shape=box,image="110011.png", label = "",URL="Species_pathways\51.svg"];
+"43"[width=5, height=5, fixedsize=true, imagescale = true, shape=box,image="101011.png", label = "",URL="Species_pathways\43.svg"];
+"35"[width=5, height=5, fixedsize=true, imagescale = true, shape=box,image="100011.png", label = "",URL="Species_pathways\35.svg"];
+"39"[width=5, height=5, fixedsize=true, imagescale = true, shape=box,image="100111.png", label = "",URL="Species_pathways\39.svg"];
+"38"[width=5, height=5, fixedsize=true, imagescale = true, shape=box,image="100110.png", label = "",URL="Species_pathways\38.svg"];
+"5"[width=5, height=5, fixedsize=true, imagescale = true, shape=box,image="000101.png", label = "",URL="Species_pathways\5.svg"];
+"1"[width=5, height=5, fixedsize=true, imagescale = true, shape=box,image="000001.png", label = "",URL="Species_pathways\1.svg"];
+}

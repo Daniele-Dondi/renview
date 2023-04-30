@@ -1,0 +1,32 @@
+digraph G {
+splines = true;
+graph [bgcolor=lightgray, resolution=64, fontname=Arial, fontcolor=blue, fontsize=36];
+node [fontsize=12];
+edge [fontsize=45];
+label = "Reaction Path Analysis";
+labelloc = "t";
+center=1;
+size="10,10";
+ranksep="6.0 equally";
+nodesep="1.5 equally";
+rankdir=LR;
+bgcolor=white;
+"55"[width=3, height=3, fixedsize=true, imagescale = true, shape=box,image="110111.png", label = "",URL="55.svg"];
+edge[dir="forward",style="solid",penwidth="6",color=blue,fontcolor=blue,weight=2,label="   0.079"];
+"54" -> "55"
+edge[dir="forward",style="solid",penwidth="6",color=blue,fontcolor=blue,weight=2,label="   0.079"];
+"55" -> "51"
+edge[dir="forward",style="solid",penwidth="6",color=blueviolet,fontcolor=blueviolet,weight=2,label="   0.079"];
+"54" -> "55"
+edge[dir="forward",style="solid",penwidth="6",color=blueviolet,fontcolor=blueviolet,weight=2,label="   0.079"];
+"55" -> "51"
+edge[dir="forward",style="solid",penwidth="6",color=cadetblue,fontcolor=cadetblue,weight=2,label="   0.079"];
+"54" -> "55"
+edge[dir="forward",style="solid",penwidth="6",color=cadetblue,fontcolor=cadetblue,weight=2,label="   0.079"];
+"55" -> "51"
+"54"[width=3, height=3, fixedsize=true, imagescale = true, shape=box,image="110110.png", label = "",URL="54.svg"];
+"51"[width=3, height=3, fixedsize=true, imagescale = true, shape=box,image="110011.png", label = "",URL="51.svg"];
+"Original"[shape=rectangle,width=4,height=1,style="filled",fillcolor=grey,fontsize=45,fontcolor=white,label = "All Pathways",URL="..\pathway_visualization.svg"];
+edge[dir="forward",arrowhead=none,style="invisible",label=""];
+"Original" -> "55"[constraint=false];
+}

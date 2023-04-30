@@ -1,0 +1,37 @@
+digraph G {
+splines = true;
+graph [bgcolor=lightgray, resolution=64, fontname=Arial, fontcolor=blue, fontsize=36];
+node [fontsize=12];
+edge [fontsize=45];
+label = "Reaction Path Analysis";
+labelloc = "t";
+center=1;
+size="10,10";
+ranksep="6.0 equally";
+nodesep="1.5 equally";
+rankdir=LR;
+bgcolor=white;
+"20"[width=3, height=3, fixedsize=true, imagescale = true, shape=box,image="010100.png", label = "",URL="20.svg"];
+edge[dir="forward",style="dashed",penwidth="12",color=chocolate,fontcolor=chocolate,weight=2,label="   1.084*"];
+"50" -> "20"
+edge[dir="forward",style="solid",penwidth="12",color=chocolate,fontcolor=chocolate,weight=2,label="   1.155"];
+"20" -> "16"
+edge[dir="forward",style="solid",penwidth="6",color=crimson,fontcolor=crimson,weight=2,label="   0.073"];
+"21" -> "20"
+edge[dir="forward",style="dashed",penwidth="12",color=crimson,fontcolor=crimson,weight=2,label="   1.155*"];
+"20" -> "16"
+edge[dir="forward",style="solid",penwidth="12",color=darkgoldenrod,fontcolor=darkgoldenrod,weight=2,label="   1.084"];
+"50" -> "20"
+edge[dir="forward",style="solid",penwidth="12",color=darkgoldenrod,fontcolor=darkgoldenrod,weight=2,label="   1.155"];
+"20" -> "16"
+edge[dir="forward",style="solid",penwidth="12",color=darkgreen,fontcolor=darkgreen,weight=2,label="   1.084"];
+"50" -> "20"
+edge[dir="forward",style="solid",penwidth="12",color=darkgreen,fontcolor=darkgreen,weight=2,label="   1.155"];
+"20" -> "16"
+"50"[width=3, height=3, fixedsize=true, imagescale = true, shape=box,image="110010.png", label = "",URL="50.svg"];
+"16"[width=3, height=3, fixedsize=true, imagescale = true, shape=box,image="010000.png", label = "",URL="16.svg"];
+"21"[width=3, height=3, fixedsize=true, imagescale = true, shape=box,image="010101.png", label = "",URL="21.svg"];
+"Original"[shape=rectangle,width=4,height=1,style="filled",fillcolor=grey,fontsize=45,fontcolor=white,label = "All Pathways",URL="..\pathway_visualization.svg"];
+edge[dir="forward",arrowhead=none,style="invisible",label=""];
+"Original" -> "20"[constraint=false];
+}

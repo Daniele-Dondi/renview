@@ -1,0 +1,24 @@
+digraph G {
+splines = true;
+graph [bgcolor=lightgray, resolution=64, fontname=Arial, fontcolor=blue, fontsize=36];
+node [fontsize=12];
+edge [fontsize=45];
+label = "Reaction Path Analysis";
+labelloc = "t";
+center=1;
+size="10,10";
+ranksep="6.0 equally";
+nodesep="1.5 equally";
+rankdir=LR;
+bgcolor=white;
+"0"[width=3, height=3, fixedsize=true, imagescale = true, shape=box,image="000000.png", label = "",URL="0.svg"];
+edge[dir="forward",style="solid",penwidth="6",color=darkmagenta,fontcolor=darkmagenta,weight=2,label="   0.077"];
+"32" -> "0"
+edge[dir="forward",style="solid",penwidth="9",color=darkmagenta,fontcolor=darkmagenta,weight=2,label="   0.273"];
+"0" -> "1"
+"32"[width=3, height=3, fixedsize=true, imagescale = true, shape=box,image="100000.png", label = "",URL="32.svg"];
+"1"[width=3, height=3, fixedsize=true, imagescale = true, shape=box,image="000001.png", label = "",URL="1.svg"];
+"Original"[shape=rectangle,width=4,height=1,style="filled",fillcolor=grey,fontsize=45,fontcolor=white,label = "All Pathways",URL="..\pathway_visualization.svg"];
+edge[dir="forward",arrowhead=none,style="invisible",label=""];
+"Original" -> "0"[constraint=false];
+}

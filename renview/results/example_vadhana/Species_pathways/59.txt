@@ -1,0 +1,44 @@
+digraph G {
+splines = true;
+graph [bgcolor=lightgray, resolution=64, fontname=Arial, fontcolor=blue, fontsize=36];
+node [fontsize=12];
+edge [fontsize=45];
+label = "Reaction Path Analysis";
+labelloc = "t";
+center=1;
+size="10,10";
+ranksep="6.0 equally";
+nodesep="1.5 equally";
+rankdir=LR;
+bgcolor=white;
+"59"[width=3, height=3, fixedsize=true, imagescale = true, shape=box,image="111011.png", label = "",URL="59.svg"];
+edge[dir="forward",style="solid",penwidth="8",color=crimson,fontcolor=crimson,weight=2,label="   0.240"];
+"58" -> "59"
+edge[dir="forward",style="solid",penwidth="8",color=crimson,fontcolor=crimson,weight=2,label="   0.240"];
+"59" -> "51"
+edge[dir="forward",style="solid",penwidth="8",color=darkblue,fontcolor=darkblue,weight=2,label="   0.240"];
+"58" -> "59"
+edge[dir="forward",style="solid",penwidth="8",color=darkblue,fontcolor=darkblue,weight=2,label="   0.240"];
+"59" -> "51"
+edge[dir="forward",style="solid",penwidth="8",color=darkgoldenrod,fontcolor=darkgoldenrod,weight=2,label="   0.240"];
+"58" -> "59"
+edge[dir="forward",style="solid",penwidth="8",color=darkgoldenrod,fontcolor=darkgoldenrod,weight=2,label="   0.240"];
+"59" -> "51"
+edge[dir="forward",style="solid",penwidth="8",color=darkgreen,fontcolor=darkgreen,weight=2,label="   0.240"];
+"58" -> "59"
+edge[dir="forward",style="solid",penwidth="8",color=darkgreen,fontcolor=darkgreen,weight=2,label="   0.240"];
+"59" -> "51"
+edge[dir="forward",style="solid",penwidth="8",color=darkmagenta,fontcolor=darkmagenta,weight=2,label="   0.240"];
+"58" -> "59"
+edge[dir="forward",style="solid",penwidth="8",color=darkmagenta,fontcolor=darkmagenta,weight=2,label="   0.240"];
+"59" -> "51"
+edge[dir="forward",style="solid",penwidth="8",color=darkred,fontcolor=darkred,weight=2,label="   0.240"];
+"58" -> "59"
+edge[dir="forward",style="solid",penwidth="8",color=darkred,fontcolor=darkred,weight=2,label="   0.240"];
+"59" -> "51"
+"58"[width=3, height=3, fixedsize=true, imagescale = true, shape=box,image="111010.png", label = "",URL="58.svg"];
+"51"[width=3, height=3, fixedsize=true, imagescale = true, shape=box,image="110011.png", label = "",URL="51.svg"];
+"Original"[shape=rectangle,width=4,height=1,style="filled",fillcolor=grey,fontsize=45,fontcolor=white,label = "All Pathways",URL="..\pathway_visualization.svg"];
+edge[dir="forward",arrowhead=none,style="invisible",label=""];
+"Original" -> "59"[constraint=false];
+}
