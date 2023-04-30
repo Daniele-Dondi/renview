@@ -12,4 +12,10 @@ nodesep="0.25 equally";
 rankdir=LR;
 bgcolor=white;
 "CH2CHOH(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=dodgerblue,URL="18.svg",shape=plaintext];
+"CH2CH2OH(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=purple,URL="17.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(5)",color=black,weight=2,arrowsize=2,label="   17   98%   2.54e-09 mol/s    7.68E-01"];
+"CH2CH2OH(S)"->"CH2CHOH(S)"
+"CH2COH(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=springgreen,URL="19.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(4)",color=green,weight=2,arrowsize=2,label="   18   78%   2.03e-09 mol/s    5.19E-01"];
+"CH2CHOH(S)"->"CH2COH(S)"
 }

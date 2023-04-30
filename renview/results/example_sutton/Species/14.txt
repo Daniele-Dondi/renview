@@ -18,13 +18,10 @@ edge[dir="forward",style="setlinewidth(6)",color=green,weight=2,arrowsize=2,labe
 "CH3CHOH(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=dodgerblue,URL="15.svg",shape=plaintext];
 edge[dir="forward",style="setlinewidth(5)",color=black,weight=2,arrowsize=2,label="   15   87%   4.77e-06 mol/s    9.99E-01"];
 "CH3CH2OH(S)"->"CH3CHOH(S)"
-"H(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=orange,URL="62.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(5)",color=black,weight=2,arrowsize=2,label="   15   87%   4.77e-06 mol/s    9.99E-01"];
-"CH3CH2OH(S)"->"H(S)"
+"CH2CH2OH(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=purple,URL="17.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   37   0%   2.54e-09 mol/s    9.99E-01"];
+"CH3CH2OH(S)"->"CH2CH2OH(S)"
 "CH3CH2O(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=purple,URL="26.svg",shape=plaintext];
 edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   69   12%   7.05e-07 mol/s    9.45E-01"];
 "CH3CH2OH(S)"->"CH3CH2O(S)"
-"H(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=orange,URL="62.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   69   12%   7.05e-07 mol/s    9.45E-01"];
-"CH3CH2OH(S)"->"H(S)"
 }

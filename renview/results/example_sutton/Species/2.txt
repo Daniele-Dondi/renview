@@ -15,7 +15,4 @@ bgcolor=white;
 "CH3CH2(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=dodgerblue,URL="38.svg",shape=plaintext];
 edge[dir="forward",style="setlinewidth(6)",color=green,weight=2,arrowsize=2,label="   4   100%   1.84e-08 mol/s    4.54E-01"];
 "CH3CH2(S)"->"CH3CH3"
-"H(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=orange,URL="62.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(6)",color=green,weight=2,arrowsize=2,label="   4   100%   1.84e-08 mol/s    4.54E-01"];
-"H(S)"->"CH3CH3"
 }

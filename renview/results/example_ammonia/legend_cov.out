@@ -8,11 +8,11 @@ legend [width=2,label=<
       <TD COLSPAN="2"><B>Legend</B></TD>
      </TR>
 <TR>
-            <TD bgcolor="cornsilk"></TD>
+            <TD bgcolor="cornsilk">                     </TD>
             <TD >Gas species</TD>
 </TR>
 <TR>
-            <TD bgcolor="azure"></TD>
+            <TD bgcolor="azure">                     </TD>
             <TD >Surface species</TD>
 </TR>
         

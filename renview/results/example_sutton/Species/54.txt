@@ -18,9 +18,15 @@ edge[dir="forward",style="setlinewidth(3)",color=green,weight=2,arrowsize=1,labe
 "CH3CO(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=springgreen,URL="28.svg",shape=plaintext];
 edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   99   0%   1.58e-08 mol/s    1.00E+00"];
 "CH3CO(S)"->"CO(S)"
+"CH2CO(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=springgreen,URL="31.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   102   0%   1.34e-09 mol/s    1.00E+00"];
+"CH2CO(S)"->"CO(S)"
 "CHCO(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=springgreen,URL="34.svg",shape=plaintext];
 edge[dir="forward",style="setlinewidth(5)",color=black,weight=2,arrowsize=2,label="   105   99%   5.42e-06 mol/s    1.00E+00"];
 "CHCO(S)"->"CO(S)"
+"CCO(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=dodgerblue,URL="37.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   108   0%   2.07e-09 mol/s    9.80E-01"];
+"CCO(S)"->"CO(S)"
 "COOH(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=dodgerblue,URL="64.svg",shape=plaintext];
 edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   154   45%   2.5e-06 mol/s    7.20E-01"];
 "CO(S)"->"COOH(S)"

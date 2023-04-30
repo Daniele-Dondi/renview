@@ -18,7 +18,4 @@ edge[dir="forward",style="setlinewidth(5)",color=green,weight=2,arrowsize=2,labe
 "OH(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=purple,URL="60.svg",shape=plaintext];
 edge[dir="forward",style="setlinewidth(5)",color=green,weight=2,arrowsize=2,label="   150   99%   2.48e-06 mol/s    5.02E-01"];
 "H2O(S)"->"OH(S)"
-"H(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=orange,URL="62.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(5)",color=green,weight=2,arrowsize=2,label="   150   99%   2.48e-06 mol/s    5.02E-01"];
-"H2O(S)"->"H(S)"
 }
