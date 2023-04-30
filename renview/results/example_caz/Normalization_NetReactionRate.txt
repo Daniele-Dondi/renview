@@ -1,0 +1,114 @@
+digraph G {
+splines = true;
+graph [bgcolor=lightgray, resolution=64, fontname=Arial, fontcolor=blue, fontsize=36];
+node [fontsize=12];
+edge [fontsize=30];
+label = "Reaction Path Analysis";
+labelloc = "t";
+center=1;
+size="10,10";
+ranksep="0.25 equally";
+nodesep="0.25 equally";
+rankdir=TB;
+bgcolor=white;
+edge[dir="forward",style="setlinewidth(1)",color=green,weight=2,arrowsize=1,label="   0%"];
+"CH3CH2(S)"->"CH3CH3"
+"CH3CH3"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=none,URL="Species\2.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(6)",color=black,weight=2,arrowsize=1,label="   100%"];
+"CH3(S)"->"CH4"
+"CH4"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=none,URL="Species\7.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(5)",color=black,weight=2,arrowsize=1,label="   87%"];
+"CH3CH2OH(S)"->"CH3CHOH(S)"
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   0%"];
+"CH3CH2OH(S)"->"CH2CH2OH(S)"
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   12%"];
+"CH3CH2OH(S)"->"CH3CH2O(S)"
+"CH3CH2OH(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=dodgerblue,URL="Species\14.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(5)",color=black,weight=2,arrowsize=1,label="   84%"];
+"CH3CHOH(S)"->"CH3COH(S)"
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   2%"];
+"CH3CHOH(S)"->"CH3CHO(S)"
+"CH3CHOH(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=dodgerblue,URL="Species\15.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(4)",color=green,weight=2,arrowsize=1,label="   73%"];
+"CH3COH(S)"->"CH2COH(S)"
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   0%"];
+"CH3COH(S)"->"CH3C(S)"
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   0%"];
+"CH3COH(S)"->"OH(S)"
+"CH3COH(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=springgreen,URL="Species\16.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   0%"];
+"CH2CH2OH(S)"->"CH2CHOH(S)"
+"CH2CH2OH(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=purple,URL="Species\17.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=green,weight=2,arrowsize=1,label="   0%"];
+"CH2CHOH(S)"->"CH2COH(S)"
+"CH2CHOH(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=dodgerblue,URL="Species\18.svg",shape=plaintext];
+"CH2COH(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=springgreen,URL="Species\19.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=green,weight=2,arrowsize=1,label="   0%"];
+"CHCHOH(S)"->"CCHOH(S)"
+"CHCHOH(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=dodgerblue,URL="Species\21.svg",shape=plaintext];
+"CCHOH(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=dodgerblue,URL="Species\24.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   12%"];
+"CH3CH2O(S)"->"CH3CHO(S)"
+"CH3CH2O(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=purple,URL="Species\26.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=green,weight=2,arrowsize=1,label="   14%"];
+"CH3CHO(S)"->"CH3CO(S)"
+"CH3CHO(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=dodgerblue,URL="Species\27.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(2)",color=green,weight=2,arrowsize=1,label="   26%"];
+"CH3CO(S)"->"CH2CO(S)"
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   0%"];
+"CH3CO(S)"->"CH3(S)"
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   0%"];
+"CH3CO(S)"->"CO(S)"
+"CH3CO(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=springgreen,URL="Species\28.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(5)",color=green,weight=2,arrowsize=1,label="   99%"];
+"CH2CO(S)"->"CHCO(S)"
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   0%"];
+"CH2CO(S)"->"CH2(S)"
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   0%"];
+"CH2CO(S)"->"CO(S)"
+"CH2CO(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=springgreen,URL="Species\31.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   0%"];
+"CHCO(S)"->"CCO(S)"
+edge[dir="forward",style="setlinewidth(5)",color=black,weight=2,arrowsize=1,label="   99%"];
+"CHCO(S)"->"CH(S)"
+edge[dir="forward",style="setlinewidth(5)",color=black,weight=2,arrowsize=1,label="   99%"];
+"CHCO(S)"->"CO(S)"
+"CHCO(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=springgreen,URL="Species\34.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   0%"];
+"CCO(S)"->"C(S)"
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   0%"];
+"CCO(S)"->"CO(S)"
+"CCO(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=dodgerblue,URL="Species\37.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   0%"];
+"CH3CH(S)"->"CH3CH2(S)"
+edge[dir="forward",style="setlinewidth(1)",color=green,weight=2,arrowsize=1,label="   0%"];
+"CH2CH2(S)"->"CH3CH2(S)"
+"CH3CH2(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=dodgerblue,URL="Species\38.svg",shape=plaintext];
+"CH3CH(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=dodgerblue,URL="Species\39.svg",shape=plaintext];
+"CH3C(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=springgreen,URL="Species\40.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=green,weight=2,arrowsize=1,label="   0%"];
+"CH2CH(S)"->"CH2CH2(S)"
+"CH2CH2(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=dodgerblue,URL="Species\41.svg",shape=plaintext];
+"CH2CH(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=dodgerblue,URL="Species\42.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   45%"];
+"CO(S)"->"COOH(S)"
+"CO(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=orange,URL="Species\54.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(5)",color=black,weight=2,arrowsize=1,label="   99%"];
+"CH2(S)"->"CH3(S)"
+"CH3(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=dodgerblue,URL="Species\55.svg",shape=plaintext];
+"CH2(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=dodgerblue,URL="Species\56.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=green,weight=2,arrowsize=1,label="   0%"];
+"C(S)"->"CH(S)"
+"CH(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=springgreen,URL="Species\57.svg",shape=plaintext];
+"C(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=dodgerblue,URL="Species\58.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(3)",color=green,weight=2,arrowsize=1,label="   55%"];
+"H2O(S)"->"OH(S)"
+"H2O(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=springgreen,URL="Species\59.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   45%"];
+"OH(S)"->"COOH(S)"
+"OH(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=purple,URL="Species\60.svg",shape=plaintext];
+"CO2(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=dodgerblue,URL="Species\63.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   45%"];
+"COOH(S)"->"CO2(S)"
+"COOH(S)"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=dodgerblue,URL="Species\64.svg",shape=plaintext];
+}
