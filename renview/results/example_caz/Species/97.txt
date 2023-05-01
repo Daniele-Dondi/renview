@@ -13,12 +13,12 @@ rankdir=LR;
 bgcolor=white;
 "R97"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="97.svg",shape=plaintext];
 "R0"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="0.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(6)",color=black,weight=2,arrowsize=2,label="   124   100%   4.67e-08 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(6)",color=black,weight=2,arrowsize=2,label="   124   100%   0.0342 mol/s    1.00E+00"];
 "R0"->"R97"
 "R55"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="55.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(6)",color=black,weight=2,arrowsize=2,label="   124   100%   4.67e-08 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(6)",color=black,weight=2,arrowsize=2,label="   124   100%   0.0342 mol/s    1.00E+00"];
 "R55"->"R97"
 "R205"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="205.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(6)",color=black,weight=2,arrowsize=2,label="   701   100%   1.66e-10 mol/s    5.41E-02"];
+edge[dir="forward",style="setlinewidth(6)",color=black,weight=2,arrowsize=2,label="   701   100%   0.00467 mol/s    2.69E-01"];
 "R97"->"R205"
 }

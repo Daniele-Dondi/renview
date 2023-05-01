@@ -13,15 +13,15 @@ rankdir=LR;
 bgcolor=white;
 "R224"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="224.svg",shape=plaintext];
 "R41"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="41.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   294   50%   4.67e-08 mol/s    1.00E+00"];
-"R41"->"R224"
+edge[dir="forward",style="setlinewidth(6)",color=black,weight=2,arrowsize=2,label="   294   100%   0.014 mol/s    4.15E-01"];
+"R224"->"R41"
 "R3"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="3.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   294   50%   4.67e-08 mol/s    1.00E+00"];
-"R3"->"R224"
+edge[dir="forward",style="setlinewidth(6)",color=black,weight=2,arrowsize=2,label="   294   100%   0.014 mol/s    4.15E-01"];
+"R224"->"R3"
 "R1"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="1.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   582   50%   4.67e-08 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(6)",color=black,weight=2,arrowsize=2,label="   582   100%   0.0342 mol/s    1.00E+00"];
 "R1"->"R224"
 "R132"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="132.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   582   50%   4.67e-08 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(6)",color=black,weight=2,arrowsize=2,label="   582   100%   0.0342 mol/s    1.00E+00"];
 "R132"->"R224"
 }

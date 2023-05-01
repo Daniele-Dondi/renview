@@ -13,18 +13,18 @@ rankdir=LR;
 bgcolor=white;
 "R312"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="312.svg",shape=plaintext];
 "R27"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="27.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   418   49%   4.67e-08 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   418   48%   0.0341 mol/s    9.99E-01"];
 "R27"->"R312"
 "R26"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="26.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   418   49%   4.67e-08 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   418   48%   0.0341 mol/s    9.99E-01"];
 "R26"->"R312"
 "R1"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="1.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   607   49%   4.67e-08 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   607   48%   0.034 mol/s    9.96E-01"];
 "R1"->"R312"
 "R248"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="248.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   607   49%   4.67e-08 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   607   48%   0.034 mol/s    9.96E-01"];
 "R248"->"R312"
 "R154"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="154.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   676   0%   1.01e-11 mol/s    9.97E-01"];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   676   3%   0.00272 mol/s    9.99E-01"];
 "R154"->"R312"
 }

@@ -13,9 +13,9 @@ rankdir=LR;
 bgcolor=white;
 "R363"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="363.svg",shape=plaintext];
 "R93"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="93.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(6)",color=black,weight=2,arrowsize=2,label="   610   100%   4.67e-08 mol/s    1.00E+00"];
-"R93"->"R363"
+edge[dir="forward",style="setlinewidth(6)",color=black,weight=2,arrowsize=2,label="   610   100%   122.0 mol/s    2.81E-04"];
+"R363"->"R93"
 "R2"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="2.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(6)",color=black,weight=2,arrowsize=2,label="   610   100%   4.67e-08 mol/s    1.00E+00"];
-"R2"->"R363"
+edge[dir="forward",style="setlinewidth(6)",color=black,weight=2,arrowsize=2,label="   610   100%   122.0 mol/s    2.81E-04"];
+"R363"->"R2"
 }

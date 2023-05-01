@@ -13,21 +13,21 @@ rankdir=LR;
 bgcolor=white;
 "R93"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="93.svg",shape=plaintext];
 "R0"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="0.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(5)",color=black,weight=2,arrowsize=2,label="   115   99%   4.67e-08 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   115   0%   0.0342 mol/s    1.00E+00"];
 "R0"->"R93"
 "R28"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="28.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(5)",color=black,weight=2,arrowsize=2,label="   115   99%   4.67e-08 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   115   0%   0.0342 mol/s    1.00E+00"];
 "R28"->"R93"
 "R87"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="87.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   475   0%   1.01e-11 mol/s    9.98E-01"];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   475   0%   0.0027 mol/s    9.94E-01"];
 "R87"->"R93"
 "R327"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="327.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(2)",color=black,weight=2,arrowsize=1,label="   551   33%   4.67e-08 mol/s    1.00E+00"];
-"R93"->"R327"
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   551   0%   0.679 mol/s    4.57E-02"];
+"R327"->"R93"
 "R363"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="363.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(2)",color=black,weight=2,arrowsize=1,label="   610   33%   4.67e-08 mol/s    1.00E+00"];
-"R93"->"R363"
+edge[dir="forward",style="setlinewidth(5)",color=black,weight=2,arrowsize=2,label="   610   99%   122.0 mol/s    2.81E-04"];
+"R363"->"R93"
 "R371"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="371.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(2)",color=black,weight=2,arrowsize=1,label="   625   33%   4.67e-08 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(6)",color=black,weight=2,arrowsize=2,label="   625   100%   0.0202 mol/s    7.09E-01"];
 "R93"->"R371"
 }

@@ -13,84 +13,84 @@ rankdir=LR;
 bgcolor=white;
 "R15"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="15.svg",shape=plaintext];
 "R0"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="0.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(6)",color=black,weight=2,arrowsize=2,label="   18   100%   4.67e-08 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   18   0%   0.0342 mol/s    1.00E+00"];
 "R0"->"R15"
 "R14"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="14.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(6)",color=black,weight=2,arrowsize=2,label="   18   100%   4.67e-08 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   18   0%   0.0342 mol/s    1.00E+00"];
 "R14"->"R15"
 "R92"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="92.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   103   4%   4.67e-08 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   103   6%   0.0342 mol/s    1.00E+00"];
 "R15"->"R92"
 "R94"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="94.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   152   4%   4.67e-08 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   152   6%   0.0342 mol/s    1.00E+00"];
 "R15"->"R94"
 "R109"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="109.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   153   4%   4.67e-08 mol/s    1.00E+00"];
-"R15"->"R109"
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   153   0%   6.47 mol/s    5.23E-03"];
+"R109"->"R15"
 "R96"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="96.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   229   4%   4.67e-08 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   229   6%   0.0342 mol/s    1.00E+00"];
 "R15"->"R96"
 "R177"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="177.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   230   4%   4.67e-08 mol/s    1.00E+00"];
-"R15"->"R177"
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   230   0%   0.0759 mol/s    2.37E-01"];
+"R177"->"R15"
 "R98"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="98.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   276   4%   4.67e-08 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   276   6%   0.0342 mol/s    1.00E+00"];
 "R15"->"R98"
 "R215"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="215.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   277   4%   4.67e-08 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   277   6%   0.0342 mol/s    1.00E+00"];
 "R15"->"R215"
 "R100"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="100.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   299   4%   4.67e-08 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   299   6%   0.0342 mol/s    1.00E+00"];
 "R15"->"R100"
 "R102"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="102.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   311   4%   4.67e-08 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   311   6%   0.0342 mol/s    1.00E+00"];
 "R15"->"R102"
 "R104"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="104.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   315   4%   4.67e-08 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   315   6%   0.0342 mol/s    1.00E+00"];
 "R15"->"R104"
 "R236"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="236.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   316   4%   4.67e-08 mol/s    1.00E+00"];
-"R15"->"R236"
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   316   0%   8.88 mol/s    3.82E-03"];
+"R236"->"R15"
 "R106"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="106.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   323   4%   4.67e-08 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   323   6%   0.0342 mol/s    1.00E+00"];
 "R15"->"R106"
 "R241"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="241.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   324   4%   4.67e-08 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   324   4%   0.0254 mol/s    7.96E-01"];
 "R15"->"R241"
 "R108"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="108.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   370   4%   4.67e-08 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   370   5%   0.0285 mol/s    8.58E-01"];
 "R15"->"R108"
 "R274"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="274.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   371   4%   4.67e-08 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   371   6%   0.0341 mol/s    9.97E-01"];
 "R15"->"R274"
 "R275"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="275.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   372   4%   4.67e-08 mol/s    1.00E+00"];
-"R15"->"R275"
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   372   0%   2230.0 mol/s    1.53E-05"];
+"R275"->"R15"
 "R298"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="298.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   404   4%   4.67e-08 mol/s    1.00E+00"];
-"R15"->"R298"
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   404   0%   73500.0 mol/s    4.65E-07"];
+"R298"->"R15"
 "R299"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="299.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   405   4%   4.67e-08 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   405   6%   0.0342 mol/s    1.00E+00"];
 "R15"->"R299"
 "R300"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="300.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   406   4%   4.67e-08 mol/s    1.00E+00"];
-"R15"->"R300"
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   406   0%   4.31 mol/s    7.80E-03"];
+"R300"->"R15"
 "R301"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="301.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   407   4%   4.67e-08 mol/s    1.00E+00"];
-"R15"->"R301"
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   407   0%   5950.0 mol/s    5.74E-06"];
+"R301"->"R15"
 "R302"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="302.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   408   4%   4.67e-08 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   408   6%   0.0314 mol/s    9.24E-01"];
 "R15"->"R302"
 "R303"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="303.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   409   4%   4.67e-08 mol/s    9.99E-01"];
-"R15"->"R303"
+edge[dir="forward",style="setlinewidth(5)",color=black,weight=2,arrowsize=2,label="   409   99%   11800000.0 mol/s    2.89E-09"];
+"R303"->"R15"
 "R304"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="304.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   410   4%   4.67e-08 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   410   6%   0.0342 mol/s    1.00E+00"];
 "R15"->"R304"
 "R26"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="26.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   420   0%   6.39e-12 mol/s    7.31E-01"];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   420   0%   0.00236 mol/s    8.84E-01"];
 "R15"->"R26"
 "R26"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="26.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   431   0%   1.74e-11 mol/s    2.69E-01"];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   431   3%   0.0181 mol/s    1.16E-01"];
 "R15"->"R26"
 }

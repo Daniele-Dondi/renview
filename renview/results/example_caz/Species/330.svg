@@ -14,8 +14,8 @@
 <g id="node1" class="node">
 <title>R330</title>
 <g id="a_node1"><a xlink:href="330.svg" xlink:title="R330">
-<polygon fill="cornsilk" stroke="none" points="706,-79 612,-79 612,-32 706,-32 706,-79"/>
-<text text-anchor="middle" x="659" y="-47" font-family="Times New Roman,serif" font-size="35.00">R330</text>
+<polygon fill="cornsilk" stroke="none" points="94,-79 0,-79 0,-32 94,-32 94,-79"/>
+<text text-anchor="middle" x="47" y="-47" font-family="Times New Roman,serif" font-size="35.00">R330</text>
 </a>
 </g>
 </g>
@@ -23,33 +23,33 @@
 <g id="node2" class="node">
 <title>R96</title>
 <g id="a_node2"><a xlink:href="96.svg" xlink:title="R96">
-<polygon fill="cornsilk" stroke="none" points="76,-112 0,-112 0,-65 76,-65 76,-112"/>
-<text text-anchor="middle" x="38" y="-80" font-family="Times New Roman,serif" font-size="35.00">R96</text>
+<polygon fill="cornsilk" stroke="none" points="706,-112 630,-112 630,-65 706,-65 706,-112"/>
+<text text-anchor="middle" x="668" y="-80" font-family="Times New Roman,serif" font-size="35.00">R96</text>
 </a>
 </g>
 </g>
-<!-- R96&#45;&gt;R330 -->
+<!-- R330&#45;&gt;R96 -->
 <g id="edge1" class="edge">
-<title>R96&#45;&gt;R330</title>
-<path fill="none" stroke="black" stroke-width="6" d="M75.78,-89.07C162.98,-90.01 389.5,-89.99 591.46,-67.62"/>
-<polygon fill="black" stroke="black" stroke-width="6" points="587.5,-77.95 606.17,-65.23 585.1,-57.09 587.5,-77.95"/>
-<text text-anchor="middle" x="348.5" y="-97.5" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;554 &#160;&#160;100% &#160;&#160;4.67e&#45;08 mol/s &#160;&#160;&#160;1.00E+00</text>
+<title>R330&#45;&gt;R96</title>
+<path fill="none" stroke="black" stroke-width="6" d="M93.83,-65.23C96.92,-65.71 100,-66.14 103,-66.5 287.06,-88.36 507.05,-89.93 609.37,-89.25"/>
+<polygon fill="black" stroke="black" stroke-width="6" points="604.31,-99.75 624.22,-89.07 604.13,-78.75 604.31,-99.75"/>
+<text text-anchor="middle" x="357.5" y="-97.5" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;554 &#160;&#160;100% &#160;&#160;191000.0 mol/s &#160;&#160;&#160;1.79E&#45;07</text>
 </g>
 <!-- R1 -->
 <g id="node3" class="node">
 <title>R1</title>
 <g id="a_node3"><a xlink:href="1.svg" xlink:title="R1">
-<polygon fill="cornsilk" stroke="none" points="67,-47 9,-47 9,0 67,0 67,-47"/>
-<text text-anchor="middle" x="38" y="-15" font-family="Times New Roman,serif" font-size="35.00">R1</text>
+<polygon fill="cornsilk" stroke="none" points="697,-47 639,-47 639,0 697,0 697,-47"/>
+<text text-anchor="middle" x="668" y="-15" font-family="Times New Roman,serif" font-size="35.00">R1</text>
 </a>
 </g>
 </g>
-<!-- R1&#45;&gt;R330 -->
+<!-- R330&#45;&gt;R1 -->
 <g id="edge2" class="edge">
-<title>R1&#45;&gt;R330</title>
-<path fill="none" stroke="black" stroke-width="6" d="M66.97,-20.47C147.17,-12.51 384.92,6.03 591.62,-31.79"/>
-<polygon fill="black" stroke="black" stroke-width="6" points="584.53,-41.28 606.16,-34.76 588.52,-20.66 584.53,-41.28"/>
-<text text-anchor="middle" x="348.5" y="-42.5" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;554 &#160;&#160;100% &#160;&#160;4.67e&#45;08 mol/s &#160;&#160;&#160;1.00E+00</text>
+<title>R330&#45;&gt;R1</title>
+<path fill="none" stroke="black" stroke-width="6" d="M93.84,-35.76C96.9,-34.88 99.98,-34.11 103,-33.5 290.27,4.29 519.65,-9.71 618.2,-18.51"/>
+<polygon fill="black" stroke="black" stroke-width="6" points="612.14,-29.05 633.03,-20.47 614.11,-8.14 612.14,-29.05"/>
+<text text-anchor="middle" x="357.5" y="-42.5" font-family="Times New Roman,serif" font-size="30.00"> &#160;&#160;554 &#160;&#160;100% &#160;&#160;191000.0 mol/s &#160;&#160;&#160;1.79E&#45;07</text>
 </g>
 </g>
 </svg>

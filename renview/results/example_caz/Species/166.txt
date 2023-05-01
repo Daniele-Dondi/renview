@@ -13,15 +13,15 @@ rankdir=LR;
 bgcolor=white;
 "R166"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="166.svg",shape=plaintext];
 "R1"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="1.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   218   50%   4.67e-08 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   218   50%   0.0342 mol/s    1.00E+00"];
 "R1"->"R166"
 "R87"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="87.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   218   50%   4.67e-08 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   218   50%   0.0342 mol/s    1.00E+00"];
 "R87"->"R166"
 "R0"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="0.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   506   50%   4.67e-08 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   506   50%   0.0342 mol/s    1.00E+00"];
 "R0"->"R166"
 "R163"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="163.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   506   50%   4.67e-08 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   506   50%   0.0342 mol/s    1.00E+00"];
 "R163"->"R166"
 }

@@ -13,18 +13,18 @@ rankdir=LR;
 bgcolor=white;
 "R134"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="134.svg",shape=plaintext];
 "R1"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="1.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   186   50%   4.67e-08 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   186   50%   0.0342 mol/s    1.00E+00"];
 "R1"->"R134"
 "R43"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="43.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   186   50%   4.67e-08 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   186   50%   0.0342 mol/s    1.00E+00"];
 "R43"->"R134"
 "R0"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="0.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   492   50%   4.67e-08 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   492   50%   0.0342 mol/s    1.00E+00"];
 "R0"->"R134"
 "R130"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="130.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   492   50%   4.67e-08 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   492   50%   0.0342 mol/s    1.00E+00"];
 "R130"->"R134"
 "R170"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="170.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(6)",color=black,weight=2,arrowsize=2,label="   691   100%   5.32e-07 mol/s    1.90E-05"];
+edge[dir="forward",style="setlinewidth(6)",color=black,weight=2,arrowsize=2,label="   691   100%   14.1 mol/s    1.93E-04"];
 "R134"->"R170"
 }

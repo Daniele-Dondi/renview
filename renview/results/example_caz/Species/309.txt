@@ -13,18 +13,18 @@ rankdir=LR;
 bgcolor=white;
 "R309"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="309.svg",shape=plaintext];
 "R26"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="26.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   415   50%   4.67e-08 mol/s    1.00E+00"];
-"R26"->"R309"
+edge[dir="forward",style="setlinewidth(6)",color=black,weight=2,arrowsize=2,label="   415   100%   0.0236 mol/s    3.72E-01"];
+"R309"->"R26"
 "R26"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="26.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   415   50%   4.67e-08 mol/s    1.00E+00"];
-"R26"->"R309"
+edge[dir="forward",style="setlinewidth(6)",color=black,weight=2,arrowsize=2,label="   415   100%   0.0236 mol/s    3.72E-01"];
+"R309"->"R26"
 "R26"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="26.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   415   50%   4.67e-08 mol/s    1.00E+00"];
-"R26"->"R309"
+edge[dir="forward",style="setlinewidth(6)",color=black,weight=2,arrowsize=2,label="   415   100%   0.0236 mol/s    3.72E-01"];
+"R309"->"R26"
 "R1"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="1.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   603   50%   4.67e-08 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(6)",color=black,weight=2,arrowsize=2,label="   603   100%   0.0342 mol/s    1.00E+00"];
 "R1"->"R309"
 "R246"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="246.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   603   50%   4.67e-08 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(6)",color=black,weight=2,arrowsize=2,label="   603   100%   0.0342 mol/s    1.00E+00"];
 "R246"->"R309"
 }

@@ -13,18 +13,18 @@ rankdir=LR;
 bgcolor=white;
 "R24"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="24.svg",shape=plaintext];
 "R11"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="11.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(5)",color=black,weight=2,arrowsize=2,label="   29   96%   4.67e-08 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(2)",color=black,weight=2,arrowsize=1,label="   29   27%   0.0342 mol/s    1.00E+00"];
 "R11"->"R24"
 "R1"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="1.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(5)",color=black,weight=2,arrowsize=2,label="   29   96%   4.67e-08 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(2)",color=black,weight=2,arrowsize=1,label="   29   27%   0.0342 mol/s    1.00E+00"];
 "R1"->"R24"
 "R40"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="40.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(6)",color=black,weight=2,arrowsize=2,label="   111   100%   4.67e-08 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(6)",color=black,weight=2,arrowsize=2,label="   111   100%   0.0342 mol/s    1.00E+00"];
 "R24"->"R40"
 "R255"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="255.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   428   3%   1.49e-09 mol/s    6.68E-03"];
+edge[dir="forward",style="setlinewidth(4)",color=black,weight=2,arrowsize=2,label="   428   70%   0.0885 mol/s    2.89E-02"];
 "R255"->"R24"
 "R255"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="255.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   730   0%   1e-11 mol/s    9.93E-01"];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   730   2%   0.00264 mol/s    9.71E-01"];
 "R255"->"R24"
 }

@@ -13,12 +13,12 @@ rankdir=LR;
 bgcolor=white;
 "R105"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="105.svg",shape=plaintext];
 "R0"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="0.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(6)",color=black,weight=2,arrowsize=2,label="   146   100%   4.67e-08 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(2)",color=black,weight=2,arrowsize=1,label="   146   37%   0.0342 mol/s    1.00E+00"];
 "R0"->"R105"
 "R87"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="87.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(6)",color=black,weight=2,arrowsize=2,label="   146   100%   4.67e-08 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(2)",color=black,weight=2,arrowsize=1,label="   146   37%   0.0342 mol/s    1.00E+00"];
 "R87"->"R105"
 "R331"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="331.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(6)",color=black,weight=2,arrowsize=2,label="   555   100%   4.67e-08 mol/s    1.00E+00"];
-"R105"->"R331"
+edge[dir="forward",style="setlinewidth(4)",color=black,weight=2,arrowsize=2,label="   555   62%   0.0564 mol/s    2.74E-01"];
+"R331"->"R105"
 }

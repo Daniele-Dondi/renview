@@ -13,27 +13,27 @@ rankdir=LR;
 bgcolor=white;
 "R94"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="94.svg",shape=plaintext];
 "R0"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="0.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   116   50%   4.67e-08 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   116   0%   0.0342 mol/s    1.00E+00"];
 "R0"->"R94"
 "R28"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="28.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   116   50%   4.67e-08 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   116   0%   0.0342 mol/s    1.00E+00"];
 "R28"->"R94"
 "R1"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="1.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   152   50%   4.67e-08 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   152   0%   0.0342 mol/s    1.00E+00"];
 "R1"->"R94"
 "R15"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="15.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   152   50%   4.67e-08 mol/s    1.00E+00"];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   152   0%   0.0342 mol/s    1.00E+00"];
 "R15"->"R94"
 "R89"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="89.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(3)",color=black,weight=2,arrowsize=1,label="   477   44%   1.11e-07 mol/s    9.06E-05"];
+edge[dir="forward",style="setlinewidth(6)",color=black,weight=2,arrowsize=2,label="   477   100%   5.65 mol/s    4.81E-04"];
 "R94"->"R89"
 "R328"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="328.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   552   18%   4.67e-08 mol/s    1.00E+00"];
-"R94"->"R328"
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   552   0%   6.07 mol/s    5.57E-03"];
+"R328"->"R94"
 "R364"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="364.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   611   18%   4.67e-08 mol/s    1.00E+00"];
-"R94"->"R364"
+edge[dir="forward",style="setlinewidth(5)",color=black,weight=2,arrowsize=2,label="   611   99%   243000.0 mol/s    1.41E-07"];
+"R364"->"R94"
 "R372"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=cornsilk,URL="372.svg",shape=plaintext];
-edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   626   18%   4.67e-08 mol/s    1.00E+00"];
-"R94"->"R372"
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   626   0%   113.0 mol/s    3.02E-04"];
+"R372"->"R94"
 }

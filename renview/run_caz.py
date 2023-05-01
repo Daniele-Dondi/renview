@@ -52,7 +52,7 @@ if __name__ == "__main__":
         'initial_reactant': 'R0',
         'reaction_cutoffrate': 1.0E-30,
         'elements_desired': ['C', 'O'],
-        'normalization': 3,
+        'normalization': 1,
         'output_directory': r'./results/example_caz/',
         'generate_pathways': False,
         'pathway_file': r'./data/example_caz/pathways_ammonia.txt',
