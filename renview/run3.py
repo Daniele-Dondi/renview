@@ -54,7 +54,7 @@ if __name__ == "__main__":
         'elements_desired': ['C', 'O'],
         'normalization': 3,
         'output_directory': r'./results/example_caz/',
-        'generate_pathways': True,
+        'generate_pathways': False,
         'pathway_file': r'./data/example_caz/pathways_ammonia.txt',
         'image_directory': r'./data/example_caz/Images/',
         }

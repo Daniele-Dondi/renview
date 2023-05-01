@@ -18,6 +18,11 @@
 <polygon fill="white" stroke="white" points="728.49,-3682 728.49,-4301 1104.49,-4301 1104.49,-3682 728.49,-3682"/>
 <text text-anchor="middle" x="916.49" y="-4257" font-family="Arial" font-size="50.00" fill="blue">Cl: 1 H: 0</text>
 </g>
+<g id="clust2" class="cluster">
+<title>cluster1</title>
+<polygon fill="white" stroke="white" points="50.49,-3286 50.49,-4301 426.49,-4301 426.49,-3286 50.49,-3286"/>
+<text text-anchor="middle" x="238.49" y="-4257" font-family="Arial" font-size="50.00" fill="blue">Cl: 0 H: 1</text>
+</g>
 <g id="clust4" class="cluster">
 <title>cluster3</title>
 <polygon fill="white" stroke="white" points="1406.49,-3682 1406.49,-4301 1782.49,-4301 1782.49,-3682 1406.49,-3682"/>
@@ -27,11 +32,6 @@
 <title>cluster4</title>
 <polygon fill="white" stroke="white" points="2084.49,-4078 2084.49,-4301 2460.49,-4301 2460.49,-4078 2084.49,-4078"/>
 <text text-anchor="middle" x="2272.49" y="-4257" font-family="Arial" font-size="50.00" fill="blue">Cl: 0 H: 2</text>
-</g>
-<g id="clust2" class="cluster">
-<title>cluster1</title>
-<polygon fill="white" stroke="white" points="50.49,-3286 50.49,-4301 426.49,-4301 426.49,-3286 50.49,-3286"/>
-<text text-anchor="middle" x="238.49" y="-4257" font-family="Arial" font-size="50.00" fill="blue">Cl: 0 H: 1</text>
 </g>
 <!-- 34 -->
 <g id="node1" class="node">
