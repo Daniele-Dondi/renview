@@ -55,7 +55,7 @@ if __name__ == "__main__":
         'normalization': 3,
         'output_directory': r'./results/example_caz/',
         'generate_pathways': False,
-        'pathway_file': r'./data/example_caz/pathways_ammonia.txt',
+        'pathway_file': r'./data/example_caz/pathways.txt',
         'image_directory': r'./data/example_caz/Images/',
         }
     run(**default_kwargs)
