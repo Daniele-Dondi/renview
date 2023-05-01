@@ -1,0 +1,42 @@
+digraph G {
+splines = true;
+graph [bgcolor=lightgray, resolution=64, fontname=Arial, fontcolor=blue, fontsize=36];
+node [fontsize=12];
+edge [fontsize=45];
+label = "Reaction Path Analysis";
+labelloc = "t";
+center=1;
+size="10,10";
+ranksep="1.5 equally";
+nodesep="0.75 equally";
+rankdir=LR;
+bgcolor=white;
+edge[dir="forward",style="solid",penwidth="11",color=black,fontcolor=black,weight=2,fontsize=45,label="   0.9"];
+"1" -> "2"
+edge[dir="forward",style="dashed",penwidth="11",color=black,fontcolor=black,weight=2,fontsize=60,label="   0.8*"];
+"2" -> "3"
+edge[dir="forward",style="solid",penwidth="11",color=black,fontcolor=black,weight=2,fontsize=45,label="   0.9"];
+"3" -> "4"
+"1"[width=5, height=5, fixedsize=true, imagescale = true, shape=box,image="000001.png", label = "",URL="Species_pathways\1.svg"];
+"2"[width=5, height=5, fixedsize=true, imagescale = true, shape=box,image="000010.png", label = "",URL="Species_pathways\2.svg"];
+"3"[width=5, height=5, fixedsize=true, imagescale = true, shape=box,image="000011.png", label = "",URL="Species_pathways\3.svg"];
+"4"[width=5, height=5, fixedsize=true, imagescale = true, shape=box,image="000100.png", label = "",URL="Species_pathways\4.svg"];
+
+subgraph cluster0{
+style = "invisible";
+label = "Pathway types";
+subgraph cluster1{
+style = "solid";
+color=white;
+shape=box;
+rank=same;
+label = "Cl: 0 H: 0";
+labelloc = "t";
+fontsize = 50;
+"P_1"[shape=rectangle,width=5,height=2,style="filled",fillcolor=black,fontsize=45,fontcolor=white,label = "Pathway 1",URL="pathway_visualization1.svg"];
+}
+
+}
+edge[arrowhead=none,style="invisible",label=""];
+"1" -> "P_1"[constraint=false];
+}

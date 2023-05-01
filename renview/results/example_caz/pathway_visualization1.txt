@@ -1,0 +1,28 @@
+digraph G {
+splines = true;
+graph [bgcolor=lightgray, resolution=64, fontname=Arial, fontcolor=blue, fontsize=36];
+node [fontsize=12];
+edge [fontsize=45];
+label = "Pathway 1";
+labelloc = "t";
+fontsize = 100;
+center=1;
+size="10,10";
+ranksep="0.75 equally";
+nodesep="0.75 equally";
+rankdir=LR;
+bgcolor=white;
+edge[dir="forward",style="solid",penwidth="11",color=black,fontcolor=black,weight=2,label="   0.9"];
+"1" -> "2"
+edge[dir="forward",style="dashed",penwidth="11",color=black,fontcolor=black,weight=2,label="                    0.8*"];
+"2" -> "3"[constraint=false];
+edge[dir="back",style="solid",penwidth="11",color=black,fontcolor=black,weight=2,label="   0.9"];
+"4" -> "3"
+"1"[width=5, height=5, fixedsize=true, imagescale = true, shape=box,image="000001.png", label = "",URL="Species_pathways\1.svg"];
+"2"[width=5, height=5, fixedsize=true, imagescale = true, shape=box,image="000010.png", label = "",URL="Species_pathways\2.svg"];
+"3"[width=5, height=5, fixedsize=true, imagescale = true, shape=box,image="000011.png", label = "",URL="Species_pathways\3.svg"];
+"4"[width=5, height=5, fixedsize=true, imagescale = true, shape=box,image="000100.png", label = "",URL="Species_pathways\4.svg"];
+"Original"[shape=rectangle,width=4,height=1,style="filled",fillcolor=grey,fontsize=45,fontcolor=white,label = "All Pathways",URL="pathway_visualization.svg"];
+edge[dir="forward",arrowhead=none,style="invisible",label=""];
+"Original" -> "1";
+}
