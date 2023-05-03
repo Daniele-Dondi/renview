@@ -6,7 +6,7 @@ import numpy as np
 from graphviz import *
 from subprocess import check_call
 
-def NodeAnalyzer(nodenum,code,path,percentile,prefix): #1 R c:\data
+def NodeAnalyzer(nodenum,code,path,percentile,prefix,isimage): #1 R c:\data
     edgein=[]
     edgeinvalues=[]
     edgeintokeep=[]
@@ -94,7 +94,11 @@ def NodeAnalyzer(nodenum,code,path,percentile,prefix): #1 R c:\data
     f.write('nodesep="0.25 equally";\n')
     f.write('rankdir=LR;\n')
     f.write('bgcolor=white;\n')
-    for line in Lines:
+    if isimage:
+            for node in nodestokeep:
+              f.write('"'+node+'"[width=3, height=3, fixedsize=true, imagescale = true, shape=box,image="'+node+'.png", label = "",URL="'+prefix+node[1:]+'.svg"];\n')
+    else:
+     for line in Lines:
         if '"[' in line:
             x=line.split('"')
             if (x[1]) in nodestokeep:
@@ -108,5 +112,5 @@ def NodeAnalyzer(nodenum,code,path,percentile,prefix): #1 R c:\data
     f.close()
     check_call(['dot', '-Tsvg', fnameout, '-o',svgout])
     
-NodeAnalyzer(13,'R','./results/example_caz/Species/',99,'simplyfied-')            
+NodeAnalyzer(13,'R','./results/example_caz/Species/',99,'simplyfied-',False)            
     
