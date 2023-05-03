@@ -1,4 +1,6 @@
 #Dondi 2023
+#C:\Users\utente\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0
+#C:\Users\utente\AppData\Local\Microsoft\WindowsApps
 
 import numpy as np
 from graphviz import *
@@ -75,7 +77,7 @@ def NodeAnalyzer(nodenum,code,path,percentile,prefix): #1 R c:\data
         x=x.splitlines()[1].split('"')
         if x[3] not in nodestokeep:
             nodestokeep.append(x[3])            
-    print("\nNodes kept: ",len(nodestokeep))
+    print("\nNodes kept: ",len(nodestokeep)," out of ",len(edgeinvalues)+len(edgeoutvalues))
     nodestokeep.append(code+str(nodenum))
     
     f = open(fnameout, "w+")
