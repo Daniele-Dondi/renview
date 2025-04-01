@@ -1,0 +1,36 @@
+digraph G {
+splines = true;
+graph [bgcolor=lightgray, resolution=64, fontname=Arial, fontcolor=blue, fontsize=36];
+node [fontsize=12];
+edge [fontsize=30];
+label = "Reaction Path Analysis";
+labelloc = "t";
+center=1;
+size="10,10";
+ranksep="0.25 equally";
+nodesep="0.25 equally";
+rankdir=LR;
+bgcolor=white;
+"R283"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=azure,URL="283.svg",shape=plaintext];
+"R27"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=azure,URL="27.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(6)",color=black,weight=2,arrowsize=2,label="   384   100%   4.13e-07 mol/s    3.37E-01"];
+"R283"->"R27"
+"R14"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=azure,URL="14.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(6)",color=black,weight=2,arrowsize=2,label="   384   100%   4.13e-07 mol/s    3.37E-01"];
+"R283"->"R14"
+"R0"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=azure,URL="0.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   526   0%   4.25e-07 mol/s    9.94E-01"];
+"R0"->"R283"
+"R248"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=azure,URL="248.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   526   0%   4.25e-07 mol/s    9.94E-01"];
+"R248"->"R283"
+"R151"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=azure,URL="151.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   675   0%   0.000654 mol/s    1.00E+00"];
+"R151"->"R283"
+"R304"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=azure,URL="304.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   837   0%   9.37e-07 mol/s    2.39E-01"];
+"R304"->"R283"
+"R151"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=azure,URL="151.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(5)",color=black,weight=2,arrowsize=2,label="   973   99%   13.8 mol/s    4.73E-05"];
+"R151"->"R283"
+}

@@ -1,0 +1,21 @@
+digraph test {
+graph [ratio=fill];
+node [label="\N", fontsize=15, shape=plaintext];
+graph [bb="0,0,352,154"];
+legend [width=2,label=<
+    <TABLE ALIGN="LEFT">
+<TR>
+      <TD COLSPAN="2"><B>Legend</B></TD>
+     </TR>
+<TR>
+            <TD bgcolor="cornsilk">                     </TD>
+            <TD >Gas species</TD>
+</TR>
+<TR>
+            <TD bgcolor="azure">                     </TD>
+            <TD >Surface species</TD>
+</TR>
+        
+    </TABLE>
+> ];
+}

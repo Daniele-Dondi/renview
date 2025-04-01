@@ -1,0 +1,27 @@
+digraph G {
+splines = true;
+graph [bgcolor=lightgray, resolution=64, fontname=Arial, fontcolor=blue, fontsize=36];
+node [fontsize=12];
+edge [fontsize=30];
+label = "Reaction Path Analysis";
+labelloc = "t";
+center=1;
+size="10,10";
+ranksep="0.25 equally";
+nodesep="0.25 equally";
+rankdir=LR;
+bgcolor=white;
+"R116"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=azure,URL="116.svg",shape=plaintext];
+"R22"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=azure,URL="22.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   166   0%   3.12e-07 mol/s    3.66E-01"];
+"R116"->"R22"
+"R1"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=azure,URL="1.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   166   0%   3.12e-07 mol/s    3.66E-01"];
+"R116"->"R1"
+"R317"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=azure,URL="317.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   647   0%   0.000652 mol/s    9.98E-01"];
+"R116"->"R317"
+"R317"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=azure,URL="317.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(5)",color=black,weight=2,arrowsize=2,label="   791   99%   0.292 mol/s    2.23E-03"];
+"R116"->"R317"
+}

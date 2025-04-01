@@ -1,0 +1,54 @@
+digraph G {
+splines = true;
+graph [bgcolor=lightgray, resolution=64, fontname=Arial, fontcolor=blue, fontsize=36];
+node [fontsize=12];
+edge [fontsize=30];
+label = "Reaction Path Analysis";
+labelloc = "t";
+center=1;
+size="10,10";
+ranksep="0.25 equally";
+nodesep="0.25 equally";
+rankdir=LR;
+bgcolor=white;
+"R55"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=azure,URL="55.svg",shape=plaintext];
+"R3"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=azure,URL="3.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   61   0%   1.03e-05 mol/s    3.84E-02"];
+"R55"->"R3"
+"R14"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=azure,URL="14.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   61   0%   1.03e-05 mol/s    3.84E-02"];
+"R55"->"R14"
+"R0"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=azure,URL="0.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   122   0%   3.96e-07 mol/s    9.31E-01"];
+"R0"->"R55"
+"R53"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=azure,URL="53.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   122   0%   3.96e-07 mol/s    9.31E-01"];
+"R53"->"R55"
+"R97"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=azure,URL="97.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   124   0%   3.73e-07 mol/s    8.87E-01"];
+"R55"->"R97"
+"R98"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=azure,URL="98.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   125   0%   1.38e-07 mol/s    5.96E-01"];
+"R55"->"R98"
+"R144"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=azure,URL="144.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=green,weight=2,arrowsize=1,label="   196   0%   5.21e-08 mol/s    4.71E-01"];
+"R144"->"R55"
+"R145"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=azure,URL="145.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   197   0%   7.17e-06 mol/s    5.33E-02"];
+"R145"->"R55"
+"R146"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=azure,URL="146.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(5)",color=black,weight=2,arrowsize=2,label="   198   99%   1120.0 mol/s    3.81E-10"];
+"R146"->"R55"
+"R68"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=azure,URL="68.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   442   3%   0.000631 mol/s    9.67E-01"];
+"R55"->"R68"
+"R130"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=azure,URL="130.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   443   0%   0.0032 mol/s    1.45E-01"];
+"R130"->"R55"
+"R68"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=azure,URL="68.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(5)",color=black,weight=2,arrowsize=2,label="   453   96%   0.0183 mol/s    3.33E-02"];
+"R55"->"R68"
+"R130"[shape=rectangle,style=filled,fontsize=35,width=0,height=0,fillcolor=azure,URL="130.svg",shape=plaintext];
+edge[dir="forward",style="setlinewidth(1)",color=black,weight=2,arrowsize=1,label="   658   0%   0.000543 mol/s    8.55E-01"];
+"R130"->"R55"
+}
