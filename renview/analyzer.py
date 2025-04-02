@@ -89,7 +89,7 @@ def NodeAnalyzer(nodenum,code,path,percentile,prefix,isimage): #1 R c:\data
     f.write('label = "Reaction Path Analysis";\n')
     f.write('labelloc = "t";\n')
     f.write('center=1;\n')
-    f.write('size="10,10";\n')
+    f.write('size="100,100";\n') #DONDI
     f.write('ranksep="0.25 equally";\n')
     f.write('nodesep="0.25 equally";\n')
     f.write('rankdir=LR;\n')

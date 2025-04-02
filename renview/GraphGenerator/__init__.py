@@ -283,7 +283,7 @@ def print_header(fname, Rank_Sep, Node_Sep):
     f.write('label = "Reaction Path Analysis";\n')
     f.write('labelloc = "t";\n')
     f.write('center=1;\n')
-    f.write('size="10,10";\n')
+    f.write('size="100,100";\n') #DONDI
     f.write('ranksep="' + str(Rank_Sep) + ' equally";\n')
     f.write('nodesep="' + str(Node_Sep) + ' equally";\n')
     f.write('rankdir=TB;\n')
@@ -309,7 +309,7 @@ def print_header_species(fname, Rank_Sep, Node_Sep):
     f.write('label = "Reaction Path Analysis";\n')
     f.write('labelloc = "t";\n')
     f.write('center=1;\n')
-    f.write('size="10,10";\n')
+    f.write('size="100,100";\n') #DONDI
     f.write('ranksep="' + str(Rank_Sep) + ' equally";\n')
     f.write('nodesep="' + str(Node_Sep) + ' equally";\n')
     f.write('rankdir=LR;\n')
